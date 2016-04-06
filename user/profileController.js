@@ -27,12 +27,13 @@
 
         UserService.GetProfile(username, function (response) {
             if(response.success){
-                console.log(response);
                 $scope.profile.image = response.image;
                 $scope.profile.fname = response.fname;
                 $scope.profile.lname = response.lname;
                 $scope.profile.city = response.city;
                 $scope.profile.country = response.country;
+                $scope.profile.aboutme = response.aboutme;
+                $scope.profile.myhobbies = response.myhobbies;
                 $scope.profile.facebook = response.facebook;
                 $scope.profile.twitter = response.twitter;
                 $scope.profile.google = response.google;
@@ -40,7 +41,6 @@
                 $scope.profile.instagram = response.instagram;
                 $scope.profile.linkedin = response.linkedin;
                 $scope.profile.website = response.website;
-                $scope.profile.aboutme = response.aboutme;
             }
             else{
                 $scope.profile.fname = 'fuck';

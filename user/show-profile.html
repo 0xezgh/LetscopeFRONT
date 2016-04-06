@@ -31,15 +31,15 @@
 								<a href="page1.html">Web Design</a>,
 								<a href="page1.html">Art Direction</a>
 							</div>
-							<div class="be-user-social">							
-								<a ng-hide="profile.facebook == null" class="social-btn color-1" href="http://{{profile.facebook}}"><i class="fa fa-facebook"></i></a>
-								<a ng-hide="profile.twitter == null" class="social-btn color-2" href="{{profile.twitter}}"><i class="fa fa-twitter"></i></a>
-								<a ng-hide="profile.google == null" class="social-btn color-3" href="{{profile.google}}"><i class="fa fa-google-plus"></i></a>
-								<a ng-hide="profile.pinterest == null" class="social-btn color-4" href="{{profile.pinterest}}"><i class="fa fa-pinterest-p"></i></a>
-								<a ng-hide="profile.instagram == null" class="social-btn color-5" href="{{profile.instagram}}l"><i class="fa fa-instagram"></i></a>
-								<a ng-hide="profile.linkedin == null" class="social-btn color-6" href="{{profile.linkedin}}"><i class="fa fa-linkedin"></i></a>
+							<div class="be-user-social">
+								<a ng-hide="profile.facebook == ''" class="social-btn color-1" href="http://{{profile.facebook}}"><i ng-hide="profile.facebook == ''" class="fa fa-facebook"></i></a>
+								<a ng-hide="profile.twitter == ''" class="social-btn color-2" href="{{profile.twitter}}"><i ng-hide="profile.twitter == ''" class="fa fa-twitter"></i></a>
+								<a ng-hide="profile.google == ''" class="social-btn color-3" href="{{profile.google}}"><i ng-hide="profile.google == ''" class="fa fa-google-plus"></i></a>
+								<a ng-hide="profile.pinterest == ''" class="social-btn color-4" href="{{profile.pinterest}}"><i ng-hide="profile.pinterest == ''" class="fa fa-pinterest-p"></i></a>
+								<a ng-hide="profile.instagram == ''" class="social-btn color-5" href="{{profile.instagram}}l"><i ng-hide="profile.instagram == ''" class="fa fa-instagram"></i></a>
+								<a ng-hide="profile.linkedin == ''" class="social-btn color-6" href="{{profile.linkedin}}"><i ng-hide="profile.linkedin == ''" class="fa fa-linkedin"></i></a>
 							</div>
-							<a class="be-user-site" href="{{profile.website}}"><i class="fa fa-link"></i> {{profile.website}}</a>
+							<a ng-hide="profile.website == null" class="be-user-site" href="{{profile.website}}"><i ng-hide="profile.website == null" class="fa fa-link"></i> {{profile.website}}</a>
 						</div>
 						<div class="be-user-statistic">
 							<div class="stat-row clearfix"><i class="stat-icon icon-views-b"></i> Projects views<span class="stat-counter">218098</span></div>
@@ -48,7 +48,7 @@
 							<div class="stat-row clearfix"><i class="stat-icon icon-following-b"></i>Following<span class="stat-counter">0</span></div>
 						</div>
 					</div>
-					<div class="be-desc-block">
+					<div ng-hide="profile.aboutme == null" class="be-desc-block">
 						<div class="be-desc-author">
 							<div class="be-desc-label">About Me</div>
 							<div class="clearfix"></div>
@@ -56,11 +56,11 @@
 								{{profile.aboutme}}
 							</div>
 						</div>
-						<div class="be-desc-author">
+						<div ng-hide="profile.myhobbies == null" class="be-desc-author">
 							<div class="be-desc-label">My Values</div>
 							<div class="clearfix"></div>
 							<div class="be-desc-text">
-								Sed dignissim scelerisque pretium. Vestibulum vel lacus laoreet nunc fermentum maximus. Proin id sodales sem, at consectetur urna. Proin vestibulum, erat a hendrerit sodales, nulla libero ornare dolor.
+								{{profile.myhobbies}}
 							</div>
 						</div>					
 					</div>										
