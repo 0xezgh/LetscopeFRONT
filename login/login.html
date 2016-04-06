@@ -41,22 +41,22 @@
 					</div>
 					<form ng-submit="login(credentials)" role="form" class="popup-input-search">
 						<div class="col-md-6">
-							<input class="input-signtype" ng-model="credentials.email"
-								   type="email" placeholder="Your email" required>
+							<input class="input-signtype" ng-model="credentials.username"
+								   type="text" placeholder="Your username" required>
 						</div>
 						<div class="col-md-6">
 							<input class="input-signtype" ng-model="credentials.password"
 								   type="password" placeholder="Password" required>
 						</div>
 						<div class="col-xs-6">
-							<div class="be-checkbox">
+							<!--<div class="be-checkbox">
 								<label class="check-box">
 									<input class="checkbox-input" type="checkbox" value=""> <span class="check-box-sign"></span>
 								</label>
 								<span class="large-popup-text">
 									Stay signed in
 								</span>
-							</div>
+							</div>-->
 
 							<a href="blog-detail-2.html" class="link-large-popup">Forgot password?</a>
 						</div>
@@ -79,7 +79,15 @@
 						<i class="fa fa-times close-button"></i>
 						<h5 class="large-popup-title">Register</h5>
 					</div>
-					<form name="registerForm" ng-submit="register(newUser)" class="popup-input-search">
+
+					<form name="registerForm" ng-submit="register(newUser)" role="form" class="popup-input-search" novalidate>
+						<style type="text/css">
+							.css-form .ng-invalid {
+								background-color: #fae2e5;
+							}
+
+						</style>
+
 						<div class="col-md-6">
 							<input class="input-signtype" ng-model="newUser.fname" type="text" placeholder="First Name" required>
 						</div>
@@ -90,7 +98,7 @@
 							<div class="be-custom-select-block">
 								<select class="be-custom-select"
 										ng-options="country.name for country in init.countries track by country.name"
-										ng-model="newUser.country">
+										ng-model="newUser.country" required>
 									<option value="" disabled selected>
 										Country
 									</option>
@@ -101,16 +109,12 @@
 							<input class="input-signtype" ng-model="newUser.email"  type="text" required="" placeholder="Email">
 						</div>
 						<div class="col-md-6">
-							<input class="input-signtype" type="password" required="" placeholder="Password" id="pw" name="password" ng-model="newUser.password"  ng-minlength="8">
+							<input class="input-signtype" ng-model="newUser.username" type="text" required="" placeholder="Username">
 						</div>
 						<div class="col-md-6">
-							<input class="input-signtype" type="password" required="" placeholder="Repeat Password" id="pw2" pwmatch="pw">
+							<input class="input-signtype" ng-model="newUser.password" type="password" required="" placeholder="Password" ng-minlength="8">
 						</div>
-						<div class="msg-block" ng-show="registerForm.$error">
-						  <span class="msg-error" ng-show="registerForm.pw2.$error.pwmatch">
-							Passwords don't match.
-						  </span>
-						</div>
+
 						<div class="col-md-12 be-date-block">
 							<span class="large-popup-text">
 								Date of birth
@@ -118,7 +122,7 @@
 							<div class="be-custom-select-block">
 								<select class="be-custom-select"
 										ng-options="month.name for month in init.months track by month.nbr"
-										ng-model="newUser.birthdate.month">
+										ng-model="newUser.birthdate.month" required>
 									<option value="" disabled selected>
 										Month
 									</option>
@@ -127,7 +131,7 @@
 							<div class="be-custom-select-block">
 								<select class="be-custom-select"
 										ng-options="day for day in init.days track by day"
-										ng-model="newUser.birthdate.day">
+										ng-model="newUser.birthdate.day" required>
 									<option value="" disabled selected>
 										Day
 									</option>
@@ -136,7 +140,7 @@
 							<div class="be-custom-select-block">
 								<select class="be-custom-select"
 										ng-options="year for year in init.years track by year"
-										ng-model="newUser.birthdate.year">
+										ng-model="newUser.birthdate.year" required>
 									<option value="" disabled selected>
 										Year
 									</option>
@@ -146,7 +150,7 @@
 						<div class="col-md-6">
 							<div class="be-checkbox">
 								<label class="check-box">
-									<input class="checkbox-input" type="checkbox" required="" value="" > <span class="check-box-sign"></span>
+									<input class="checkbox-input" type="checkbox" name="agree" ng-required="required" value="" > <span class="check-box-sign"></span>
 								</label>
 								<span class="large-popup-text">
 									I have read and agree to the <a class="be-popup-terms" href="#">Terms of Use</a> and <a class="be-popup-terms" href="#">Privacy Policy</a>.
@@ -162,9 +166,12 @@
 							</div>
 						</div>
 						<div class="col-md-6 for-signin">
-							<input type="submit" class="be-popup-sign-button" value="SIGN IN">
+							<input type="submit" class="be-popup-sign-button" value="SIGN IN" ng-disabled="registerForm.$invalid || registerForm.agree.$error.required">
+
 						</div>
+
 					</form>
+
 				</div>
 			</div>
 		</div>
@@ -409,4 +416,3 @@
 <script src="script/global.js"></script>
 <script src="script/isotope.pkgd.min.js"></script>
 
-	

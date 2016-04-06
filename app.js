@@ -37,14 +37,16 @@
             .when('/tag/id',{
 				templateUrl:'tag.html'
 		})
-            .when('/profile/',{
+            .when('/user/',{
 				templateUrl:'profile.html'
 		})
-            .when('/myprofile/',{
-				templateUrl:'show-profile.html'
+            .when('/profile/:username',{
+				controller:'ProfileController',
+				templateUrl:'user/show-profile.html'
 		})
-            .when('/myprofile/edit',{
-				templateUrl:'edit-profile.html'
+            .when('/profile/edit/:username',{
+				controller:'ProfileController',
+				templateUrl:'user/edit-profile.html'
 		})
             .when('/work',{
 				templateUrl:'work.html'

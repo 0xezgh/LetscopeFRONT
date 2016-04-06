@@ -7,7 +7,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-md-3 left-feild">
 					<div class="be-vidget back-block">
-						<a class="btn full color-1 size-1 hover-1" href="#/myprofile">
+						<a class="btn full color-1 size-1 hover-1" href="#/profile">
                             <i class="fa fa-chevron-left"></i>back to profile</a>
 					</div>
 					<div class="be-vidget hidden-xs hidden-sm" id="scrollspy">
@@ -36,7 +36,7 @@
 							<div class="be-large-post-align">
 								<div class="be-change-ava">
 									<a class="be-ava-user style-2" href="blog-detail-2.html">
-										<img src="img/ava_10.jpg" alt=""> 
+										<img src="../img/ava_10.jpg" alt="">
 									</a>
 									<a class="btn color-4 size-2 hover-7">replace image</a>
 								</div>
@@ -46,13 +46,13 @@
 									<div class="input-col col-xs-12 col-sm-6">
 										<div class="form-group fg_icon focus-2">
 											<div class="form-label">First Name</div>
-											<input class="form-input" type="text" value="Taylor">
+											<input class="form-input" type="text" value="{{profile.fname}}">
 										</div>							
 									</div>
 									<div class="input-col col-xs-12 col-sm-6">
 										<div class="form-group focus-2">
 											<div class="form-label">Last Name</div>									
-											<input class="form-input" type="text" value="Leight">
+											<input class="form-input" type="text" value="{{profile.lname}}">
 										</div>								
 									</div>
 									<div class="input-col col-xs-12">
@@ -89,7 +89,7 @@
 									<div class="input-col col-xs-12">
 										<div class="form-group focus-2">
 											<div class="form-label">Website URL</div>									
-											<input class="form-input" type="text" value="http://www.mahdi-benamar.com">
+											<input class="form-input" type="text" value="{{profile.website}}">
 										</div>								
 									</div>								
 								</div>
@@ -138,10 +138,10 @@
 								<div class="social-input form-group focus-2">
 									<div class="s_icon">
 										<div class="social-bars"><i class="fa fa-bars"></i></div>
-										<a class="social-btn color-1" href="blog-detail-2.html"><i class="fa fa-facebook"></i></a>
+										<a class="social-btn color-1" href="{{profile.facebook}}"><i class="fa fa-facebook"></i></a>
 									</div>
 									<div class="s_input">
-										<input class="form-input" type="text" value="http://facebook.com/taylor">
+										<input class="form-input" type="text" value="{{profile.facebook}}">
 									</div>
 								</div>
 								<div class="social-input form-group focus-2">
@@ -150,7 +150,7 @@
 										<a class="social-btn color-2" href="blog-detail-2.html"><i class="fa fa-twitter"></i></a>
 									</div>
 									<div class="s_input">
-										<input class="form-input" type="text" value="http:// twitter.com/taylor">
+										<input class="form-input" type="text" value="{{profile.twitter}}">
 									</div>
 								</div>
 								<div class="social-input form-group focus-2">
@@ -159,7 +159,7 @@
 										<a class="social-btn color-3" href="blog-detail-2.html"><i class="fa fa-google-plus"></i></a>
 									</div>
 									<div class="s_input">
-										<input class="form-input" type="text" value="http:// googleplus.com/taylor">
+										<input class="form-input" type="text" value="{{profile.google}}">
 									</div>
 								</div>
 								<div class="social-input form-group focus-2">
@@ -168,23 +168,21 @@
 										<a class="social-btn color-4" href="blog-detail-2.html"><i class="fa fa-pinterest-p"></i></a>
 									</div>
 									<div class="s_input">
-										<input class="form-input" type="text" value="http:// pinterest.com/taylor">
+										<input class="form-input" type="text" value="{{profile.pinterest}}">
 									</div>
 								</div>
 								<div class="social-input form-group focus-2">
 									<div class="s_icon">
 										<div class="social-bars"><i class="fa fa-bars"></i></div>
-										<a class="social-btn color-5" href="blog-detail-2.html"><i class="fa fa-instagram"></i></a>
+										<a class="social-btn color-5" href="{{profile.instagram}}"><i class="fa fa-instagram"></i></a>
 									</div>
 									<div class="s_input">
-										<input class="form-input" type="text" value="http:// instagram.com/taylor">
+										<input class="form-input" type="text" value="{{profile.instagram}}">
 									</div>
 								</div>																													
 							</div>
 						</div>
 
-
-					
 						<div class="be-large-post">
 							<div class="info-block style-2">
 								<div class="be-large-post-align"><h3 class="info-block-label">About Me</h3></div>
@@ -193,48 +191,19 @@
 								<div class="row">
 									<div class="input-col col-xs-12">
 										<div class="form-group focus-2">
-											<div class="form-label">Section Title</div>									
-											<input class="form-input" type="text" placeholder="About Me">
+											<div class="form-label">About me</div>
+											<input class="form-input" type="text" placeholder="{{profile.aboutme}}">
 										</div>								
 									</div>
 									<div class="input-col col-xs-12">
 										<div class="form-group focus-2">
-											<div class="form-label">Description</div>
-											<textarea class="form-input" required="" placeholder="Something about you"></textarea>
+											<div class="form-label">My Values</div>
+											<textarea class="form-input" required="" placeholder=""></textarea>
 										</div>
 									</div>
 								</div>
 							</div>						
 						</div>
-					
-
-					
-						<div class="be-large-post">
-							<div class="info-block style-2">
-								<div class="be-large-post-align"><h3 class="info-block-label">Web References</h3></div>
-							</div>
-							<div class="be-large-post-align">
-								<div class="row">
-									<div class="input-col col-xs-12 col-sm-5">
-										<div class="form-group focus-2">
-											<div class="form-label">Link Title</div>									
-											<input class="form-input" type="text" placeholder="Enter title">
-										</div>								
-									</div>
-									<div class="input-col col-xs-12 col-sm-5">
-										<div class="form-group focus-2">
-											<div class="form-label">Link descriprion</div>									
-											<input class="form-input" type="text" placeholder="Enter descriprion">
-										</div>								
-									</div>
-									<div class="col-xs-12 col-sm-2">								
-										<a href="blog-detail-2.html" class="btn full btn-input color-1 size-4 hover-1">add</a>
-									</div>
-								</div>							
-							</div>
-						</div>
-				
-					<a class="btn full color-1 size-1 hover-1 add_section"><i class="fa fa-plus"></i>add sections</a>																				
 				</div>				
 			</div>
 		</div>

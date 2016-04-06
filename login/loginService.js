@@ -5,23 +5,23 @@
 		.module('letscope')
 		.factory('LoginService',LoginService);
 	
-	LoginService.$inject = ['UserService'];
+	LoginService.$inject = ['AuthDataService'];
 	
-	function LoginService (UserService,Session,AUTH_EVENTS){
+	function LoginService (authDataService,Session,AUTH_EVENTS){
 		var service = {};
 
 		service.Register = Register;
 		service.Login = Login;
-		//service.GetType = GetType;
 
 
 		return service;
 
-		function Register(fname,lname,email,country,birthdate,newsletter,password,callback){
+		function Register(fname,lname,username,email,country,birthdate,newsletter,password,callback){
 			var response;
-			UserService.RegisterUser().save({
+			authDataService.RegisterUser().save({
 								fname: fname,
 								lname: lname,
+								username: username,
 								email: email,
 								country: country,
 								birthdate: birthdate,
@@ -39,10 +39,10 @@
 			});
 		}
 
-		function Login(email,password,callback){
+		function Login(username,password,callback){
 			 var response;
 			
-			UserService.GetUserByEmailAndPassword().get({email: email,password: password},function(user){
+			authDataService.Login().save({username: username,password: password},function(user){
 				 if(user !== null &&  user.password == password)
                  {
 						response = {success:true, userId : user.id, userName : user.fName, userLname : user.lName};
@@ -58,7 +58,7 @@
 
 		/*function GetType(user,typeCallback){
 			var pathResponse;
-			return UserService.GetUserByEmailAndPassword().save({},{id:user},function(type){
+			return authService.GetUserByEmailAndPassword().save({},{id:user},function(type){
 				if(type[0] === '1'){
 					pathResponse = {path: '/hrDash', role: 'hrEmployee'};
 				}else if(type[0] === '2'){
