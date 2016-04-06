@@ -30,7 +30,7 @@
 							},function(user){
 				if(user.error == null)
 				{
-					response = {success:true, userId : user.id, userName : user.fName, userLname : user.lName};
+					response = {success:true, email: user.email, username: user.username};
 				}else
 				{
 					response = {success:false, message: user.error};

@@ -21,14 +21,15 @@
             },function(user){
                 if(user.error == null)
                 {
-
                     response = {
                         success:true,
-                        image : user.profile_image_url,
+                        username : user.username,
                         fname : user.name.fname,
                         lname : user.name.lname,
+                        email : user.email,
                         city : user.city,
                         country : user.country,
+                        image : user.profile_image_url,
                         facebook : user.fb.url,
                       /* twitter : user.twitter.url,
                         google : user.google.url,
