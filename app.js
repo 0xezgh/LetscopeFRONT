@@ -2,7 +2,7 @@
 	'user strict';
 	
 	angular
-		.module('letscope',['ngRoute','ngResource'])
+		.module('letscope',['ngRoute','ngResource','ngFileUpload'])
         .value('AuthenticatedUser',{})
 		.config(config)
         .run(function($rootScope, $location) {
