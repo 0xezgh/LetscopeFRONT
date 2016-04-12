@@ -32,9 +32,10 @@
 				templateUrl:'activity.html'
 		})
             .when('/tag',{
+				controller:'tagController',
 				templateUrl:'tags.html'
 		})
-            .when('/tag/id',{
+            .when('/tag/:id',{
 				templateUrl:'tag.html'
 		})
             .when('/user/',{
