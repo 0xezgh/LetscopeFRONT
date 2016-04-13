@@ -109,6 +109,11 @@
 							<h3 class="letf-menu-article">
 								ADD MEDIA
 							</h3>
+							
+							<form  ng-submit="addWork()">
+							title <input type="text" class="fa fa-text-width" ng-model="post.title" />
+							<input type="submit" />
+							</form>
 							<div class="creative_filds_block">
 								<ul class="ul nav b-work-list">
 									<li ><a href="#"><i class="fa fa-cloud-upload"></i>Upload Files</a><input class="file" type="file"/></li>
