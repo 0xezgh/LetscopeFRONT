@@ -27,26 +27,35 @@
 
 				</div>
 				<div class="col-xs-12 col-md-9 _editor-content_">
-
-					<form name="editProfileForm" ng-submit="update(profile)" role="form">
+					<form name="updateImageForm" ng-submit="onFileSelect($files)" role="form">
 						<div class="be-large-post">
 							<div class="info-block style-2">
-								<div class="be-large-post-align "><h3 class="info-block-label">Basic Information</h3></div>
+								<div class="be-large-post-align "><h3 class="info-block-label">Profile Image</h3></div>
 							</div>
-							<h2>{{msg}}</h2>
 							<div class="be-large-post-align">
 								<div class="be-change-ava">
 									<a class="be-ava-user style-2" href="blog-detail-2.html">
 										<img src="/img/a1.png" alt="">
 									</a>
-									<a class="btn color-4 size-2 hover-7">replace image</a>
+										<input class="btn color-4 size-2" type="file" value="Replace image" ng-file-select="onFileSelect($files)">
 								</div>
 								<div class="col-xs-12">
-									<input type="submit" class="btn color-1 size-2 hover-1 btn-right" value="SAVE CHANGES">
+									<input type="submit" class="btn color-1 size-2 hover-1 btn-right" value="UPDATE IMAGE">
 								</div>
 							</div>
+						</div>
+					</form>
+						<form name="editProfileForm" ng-submit="update(profile)" role="form">
+							<div class="be-large-post">
+								<div class="info-block style-2">
+									<div class="be-large-post-align "><h3 class="info-block-label">Basic Information</h3></div>
+								</div>
+								<h3>{{msg}}</h3>
 							<div class="be-large-post-align">
 								<div class="row">
+									<div class="col-xs-12">
+										<input type="submit" class="btn color-1 size-2 hover-1 btn-right" value="SAVE CHANGES">
+									</div>
 									<div class="input-col col-xs-12 col-sm-6">
 										<div class="form-group fg_icon focus-2">
 											<div class="form-label">First Name</div>
@@ -75,7 +84,7 @@
 										<div class="form-label">Country</div>
 										<div class="be-drop-down icon-none">
 											<select class="be-custom-select"
-													ng-options="country.name for country in countries track by country.name"
+													ng-options="country for country in countries"
 													ng-model="profile.country" required>
 												<option value="" disabled selected>
 													Country

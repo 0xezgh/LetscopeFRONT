@@ -2,7 +2,7 @@
 	'user strict';
 	
 	angular
-		.module('letscope',['ngRoute','ngResource'])
+		.module('letscope',['ngRoute','ngResource','ngFileUpload'])
         .value('AuthenticatedUser',{})
 		.config(config)
         .run(function($rootScope, $location) {
@@ -32,9 +32,10 @@
 				templateUrl:'activity.html'
 		})
             .when('/tag',{
+				controller:'tagController',
 				templateUrl:'tags.html'
 		})
-            .when('/tag/id',{
+            .when('/tag/:id',{
 				templateUrl:'tag.html'
 		})
             .when('/user/',{

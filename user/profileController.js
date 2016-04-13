@@ -5,21 +5,20 @@
         .module('letscope')
         .controller('ProfileController',ProfileController);
 
-    ProfileController.$inject = ['UserService','$scope','$location','AuthenticatedUser','$rootScope'];
+    ProfileController.$inject = ['UserService','Upload','$scope','$location','AuthenticatedUser','$rootScope'];
 
-    function ProfileController(UserService,$scope,$location,AuthenticatedUser,$rootScope){
-        var id = '570b6aae791cbf2c29da392a'; // var id = AuthenticatedUser.id;
+    function ProfileController(UserService,Upload,$scope,$location,AuthenticatedUser,$rootScope){
+        var id = '570b75733d1ab0700be75108'; // var id = AuthenticatedUser.id;
 
         $scope.msg = "";
 
-        $scope.countries = [
-            {name: 'Afghanistan', code: 'AF'},
-            {name: 'Åland Islands', code: 'AX'},
-            {name: 'Albania', code: 'AL'},
-            {name: 'Algeria', code: 'DZ'},
-            {name: 'American Samoa', code: 'AS'},
-            {name: 'AndorrA', code: 'AD'},
-            {name: 'Angola', code: 'AO'},
+        $scope.countries = ['Afghanistan',
+            'Åland Islands',
+            'Albania',
+            'Algeria',
+            'American Samoa'];   /*
+            'AndorrA', code: 'AD'},
+            'Angola', code: 'AO'},
             {name: 'Anguilla', code: 'AI'},
             {name: 'Antarctica', code: 'AQ'},
             {name: 'Antigua and Barbuda', code: 'AG'},
@@ -256,7 +255,7 @@
             {name: 'Yemen', code: 'YE'},
             {name: 'Zambia', code: 'ZM'},
             {name: 'Zimbabwe', code: 'ZW'}
-        ];
+        ];  */
 
         $scope.profile = {
             image : "",
@@ -313,6 +312,37 @@
             });
         };
 
+        $scope.onFileSelect = function(image) {
+            $scope.uploadInProgress = true;
+            $scope.uploadProgress = 0;
+
+            if (angular.isArray(image)) {
+                image = image[0];
+            }
+
+            $scope.upload = Upload.upload({
+                url: 'http://localhost:3000/user/upload',
+                method: 'POST',
+                data: {
+                    type: 'profile'
+                },
+                file: image
+            }).progress(function(event) {
+                console.log("start uploading");
+                $scope.uploadProgress = Math.floor(event.loaded / event.total);
+                $scope.$apply();
+            }).success(function(data, status, headers, config) {
+               // AlertService.success('Photo uploaded!');
+                console.log('Photo uploaded !');
+            }).error(function(err) {
+                $scope.uploadInProgress = false;
+                //AlertService.error('Error uploading file: ' + err.message || err);
+                console.log('Error uploading file: ' + err.message || err);
+            });
+        };
+
     }
 
 })();
+
+
