@@ -38,16 +38,23 @@
 				templateUrl:'tag.html'
 		})
             .when('/user/',{
-				templateUrl:'profile.html'
+				templateUrl:'user/profile.html'
 		})
-            .when('/profile/:username',{
+				.when('/profile',{
 				controller:'ProfileController',
 				templateUrl:'user/show-profile.html'
-		})
-            .when('/profile/edit/:username',{
-				controller:'ProfileController',
-				templateUrl:'user/edit-profile.html'
-		})
+				})
+
+				.when('/profile/edit',{
+					controller:'ProfileController',
+					templateUrl:'user/edit-profile.html'
+				})
+
+				.when('/profile/:id',{
+					controller:'ProfileController',
+					templateUrl:'user/profile.html'
+				})
+
             .when('/work',{
 				templateUrl:'work.html'
 		})

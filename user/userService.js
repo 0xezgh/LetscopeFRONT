@@ -12,6 +12,7 @@
 
         service.GetProfile = GetProfile;
         service.UpdateProfile = UpdateProfile;
+        service.FollowUser = FollowUser;
 
         return service;
 
@@ -33,7 +34,7 @@
                         city : user.city,
                         country : user.country,
                         aboutme: user.aboutme,
-                        myhobbies: user.myhobbies,
+                        myskills: user.myskills,
                         image : user.profileimageurl,
                         facebook : user.fb.url,
                         twitter : user.twitter.url,
@@ -51,9 +52,9 @@
             });
         }
 
-        function UpdateProfile(id,fname,lname,occupation,website,country,city,aboutme,myhobbies,facebook,twitter,google,pinterest,instagram,linkedin,callback){
+        function UpdateProfile(id,fname,lname,occupation,website,country,city,aboutme,myskills,facebook,twitter,google,pinterest,instagram,linkedin,callback){
             var response;
-            console.log('New user = ' + " - " +fname +" - " + lname +" - " + occupation +" - " +website +" - " +country+" - " +city+" - " +aboutme+" - " +myhobbies+" - " +facebook+" - " +twitter+" - " +google+" - " +pinterest+" - " +instagram);
+            console.log('New user = ' + " - " +fname +" - " + lname +" - " + occupation +" - " +website +" - " +country+" - " +city+" - " +aboutme+" - " +myskills+" - " +facebook+" - " +twitter+" - " +google+" - " +pinterest+" - " +instagram);
             UserDataService.update({
                 id : id,
                 fname : fname,
@@ -63,7 +64,7 @@
                 country : country,
                 city : city,
                 aboutme : aboutme,
-                myhobbies : myhobbies,
+                myskills : myskills,
                 facebook : facebook,
                 twitter : twitter,
                 google : google,
@@ -78,12 +79,29 @@
                 }
                 else{
                     console.log("!Done");
-                    response = {success : true};
+                    response = {success : false};
                 }
                 callback(response);
             });
         }
 
+        function FollowUser(id,follow,callback){
+            var response;
+            UserDataService.follow({
+                    id : id,
+                    follow : follow
+            },function(user) {
+                if (user.error == null) {
+                    console.log("Done");
+                    response = {success: true};
+                }
+                else {
+                    console.log("!Done");
+                    response = {success: false};
+                }
+                callback(response);
+            });
+        }
     }
 
 })();
