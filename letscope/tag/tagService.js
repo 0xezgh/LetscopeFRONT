@@ -11,6 +11,7 @@
         var service = {};
 
         service.GetTags = GetTags;
+		service.GetTagByName = GetTagByName;
         
 
         return service;
@@ -40,6 +41,33 @@
                 callback(response);
             });
         }
+		
+		
+		
+		function GetTagByName(callback){
+            var response;
+            
+            tagDataService.query({
+                
+               
+            },function(tag){
+                if(tag.error == null)
+                {
+                    console.log(tags);
+					console.log(tags.name);
+					console.log(tags.description);
+                    response = {success : true,
+								tag : tag
+					};
+                }
+                else{
+                    console.log("!Done");
+                    response = {success : false};
+                }
+                callback(response);
+            });
+        }
+		
 
     }
 
