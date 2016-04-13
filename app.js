@@ -26,7 +26,7 @@
 		$routeProvider
 			.when('/',{
 			 	controller:'LoginController',
-                templateUrl:'login/login.html'
+                templateUrl:'letscope/login/login.html'
 		})
             .when('/activity',{
 				templateUrl:'activity.html'
@@ -41,17 +41,17 @@
 		})
 				.when('/profile',{
 				controller:'ProfileController',
-				templateUrl:'user/show-profile.html'
+				templateUrl:'letscope/user/show-profile.html'
 				})
 
 				.when('/profile/edit',{
 					controller:'ProfileController',
-					templateUrl:'user/edit-profile.html'
+					templateUrl:'letscope/user/edit-profile.html'
 				})
 
 			.when('/profile/:id',{
 				controller:'ProfileController',
-				templateUrl:'user/profile.html'
+				templateUrl:'letscope/user/profile.html'
 			})
             .when('/work/',{
 				controller:'PostController',
