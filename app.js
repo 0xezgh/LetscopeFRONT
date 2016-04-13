@@ -29,7 +29,8 @@
                 templateUrl:'login/login.html'
 		})
             .when('/activity',{
-				templateUrl:'activity.html'
+				controller:'PostController',
+				templateUrl:'post/activity.html'
 		})
             .when('/tag',{
 				controller:'tagController',

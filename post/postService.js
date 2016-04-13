@@ -37,6 +37,31 @@
                 callback(response);
             });
         }
+		
+		
+        function GetPost(callback){
+            var response;
+            
+            postDataService.query({
+                
+               
+            },function(post){
+                if(post.error == null)
+                {
+                    console.log(post[0]);
+					console.log(post[0].name);
+					console.log(post[0].description);
+                    response = {success : true,
+								post : post
+					};
+                }
+                else{
+                    console.log("!Done");
+                    response = {success : false};
+                }
+                callback(response);
+            });
+        }
 
      /*  function UpdateProfile(id,fname,lname,occupation,website,country,city,aboutme,myhobbies,facebook,twitter,google,pinterest,instagram,linkedin,callback){
             var response;
