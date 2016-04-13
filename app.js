@@ -32,13 +32,12 @@
 				templateUrl:'activity.html'
 		})
             .when('/tag',{
+				controller:'tagController',
 				templateUrl:'tags.html'
 		})
-            .when('/tag/id',{
+            .when('/tag/:name',{
+				controller:'tagController',
 				templateUrl:'tag.html'
-		})
-            .when('/user/',{
-				templateUrl:'user/profile.html'
 		})
 				.when('/profile',{
 				controller:'ProfileController',
@@ -50,13 +49,13 @@
 					templateUrl:'user/edit-profile.html'
 				})
 
-				.when('/profile/:id',{
-					controller:'ProfileController',
-					templateUrl:'user/profile.html'
-				})
-
-            .when('/work',{
-				templateUrl:'work.html'
+			.when('/profile/:id',{
+				controller:'ProfileController',
+				templateUrl:'user/profile.html'
+			})
+            .when('/work/',{
+				controller:'PostController',
+                templateUrl:'post/work.html'
 		})
             .when('/post/pic',{
 				templateUrl:'post-pic.html'

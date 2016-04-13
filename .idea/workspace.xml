@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d92a86d1-11db-4723-a5c1-a0301f4aa59d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/profile.html" afterPath="$PROJECT_DIR$/user/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Software Dev.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gardening.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/illustration.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/photography.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tailoring.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/writing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataServices/postDataService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/letscope/tag/tagController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/letscope/tag/tagDataService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/letscope/tag/tagService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/post/postController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/post/postService.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/work.html" afterPath="$PROJECT_DIR$/post/work.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataServices/userDataService.js" afterPath="$PROJECT_DIR$/dataServices/userDataService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/header.html" afterPath="$PROJECT_DIR$/shared/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/edit-profile.html" afterPath="$PROJECT_DIR$/user/edit-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/profileController.js" afterPath="$PROJECT_DIR$/user/profileController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/show-profile.html" afterPath="$PROJECT_DIR$/user/show-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/userService.js" afterPath="$PROJECT_DIR$/user/userService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags.html" afterPath="$PROJECT_DIR$/tags.html" />
     </list>
     <ignored path="letscope.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +40,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="show-profile.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show-profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/show-profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1300191">
+            <state vertical-scroll-proportion="7.120482">
               <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
               <folding />
             </state>
@@ -46,7 +55,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.0963855">
               <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-              <folding />
+              <folding>
+                <marker date="1460573999446" expanded="true" signature="22925:30264" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="23697:23758" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="24308:24369" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="24918:24979" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="25551:25612" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="27356:27417" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="27542:27771" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="28456:28995" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="28496:28970" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="29353:29582" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="30415:36890" placeholder="..." />
+                <marker date="1460573999446" expanded="true" signature="30469:31684" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,17 +97,24 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.3076925">
-              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-              <folding />
+              <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+              <folding>
+                <marker date="1460574248442" expanded="true" signature="3405:3814" placeholder="..." />
+                <marker date="1460574248442" expanded="true" signature="3439:3718" placeholder="..." />
+                <marker date="1460574248442" expanded="true" signature="3466:3707" placeholder="..." />
+                <marker date="1460574248442" expanded="true" signature="3531:3698" placeholder="..." />
+                <marker date="1460574248442" expanded="true" signature="3556:3690" placeholder="..." />
+                <marker date="1460574248442" expanded="true" signature="3763:3798" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.29360968">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -159,7 +188,6 @@
         <option value="$PROJECT_DIR$/login/loginService.js" />
         <option value="$PROJECT_DIR$/login/loginController.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/user/edit-profile.html" />
         <option value="$PROJECT_DIR$/shared/header.html" />
         <option value="$PROJECT_DIR$/dataServices/userDataService.js" />
@@ -167,6 +195,7 @@
         <option value="$PROJECT_DIR$/user/profileController.js" />
         <option value="$PROJECT_DIR$/user/profile.html" />
         <option value="$PROJECT_DIR$/user/show-profile.html" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -681,8 +710,15 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.3076925">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding />
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding>
+            <marker date="1460574248442" expanded="true" signature="3405:3814" placeholder="..." />
+            <marker date="1460574248442" expanded="true" signature="3439:3718" placeholder="..." />
+            <marker date="1460574248442" expanded="true" signature="3466:3707" placeholder="..." />
+            <marker date="1460574248442" expanded="true" signature="3531:3698" placeholder="..." />
+            <marker date="1460574248442" expanded="true" signature="3556:3690" placeholder="..." />
+            <marker date="1460574248442" expanded="true" signature="3763:3798" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -722,26 +758,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0963855">
           <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding />
+          <folding>
+            <marker date="1460573999446" expanded="true" signature="22925:30264" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="23697:23758" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="24308:24369" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="24918:24979" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="25551:25612" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="27356:27417" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="27542:27771" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="28456:28995" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="28496:28970" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="29353:29582" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="30415:36890" placeholder="..." />
+            <marker date="1460573999446" expanded="true" signature="30469:31684" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/show-profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1300191">
+        <state vertical-scroll-proportion="7.120482">
           <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29360968">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding />
         </state>
       </provider>

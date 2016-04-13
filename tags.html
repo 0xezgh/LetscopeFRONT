@@ -8,92 +8,34 @@
 		</div>
 		<div class="custom-container gallery-container">
 			<div class="container">
-				<div class="gallery-box clearfix">
-					<a class="gallery-a" href="#"><img src="img/gallery-img-1.png" alt="img"></a>
+			
+				<div class="gallery-box clearfix" ng-repeat="tag in tags">
+					<a class="gallery-a" href="#"><img src="img/{{tag.name}}.jpg" alt="img"></a>
 					<div class="gallery-info">
-						<h3>Lorem title text</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto aut corporis cumque dignissimos eos exercitationem facere labore labori.</p>
+						<h3>{{tag.name}}</h3>
+						<p>{{tag.description}}</p>
 					</div>
 					<div class="gallery-btn">
 						<a class="btn-login btn color-1 size-2 hover-2" href="#">
 							FOLLOW
 							</a>
-						<a class="btn-login btn color-1 size-2 hover-2" href="#/tag/id">
+						<a class="btn-login btn color-1 size-2 hover-2" href="#/tag/{{tag.name}">
 							PAGE
 						</a>
 					</div>
 				</div>
-				<div class="gallery-box clearfix">
-					<a class="gallery-a" href="#"><img src="img/gallery-img-2.png" alt="img"></a>
-					<div class="gallery-info">
-						<h3>Lorem title text</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto aut corporis cumque dignissimos eos exercitationem facere labore labori.</p>
-					</div>
-					<div class="gallery-btn">
-						<a class="btn-login btn color-1 size-2 hover-2" href="#">
-							FOLLOW
-						</a>
-						<a class="btn-login btn color-1 size-2 hover-2" href="#/tag/id">
-							PAGE
-						</a>
-					</div>
-				</div>
-				<div class="gallery-box clearfix">
-					<a class="gallery-a" href="#"><img src="img/gallery-img-3.png" alt="img"></a>
-					<div class="gallery-info">
-						<h3>Lorem title text</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto aut corporis cumque dignissimos eos exercitationem facere labore labori.</p>
-					</div>
-					<div class="gallery-btn">
-						<a class="btn-login btn color-1 size-2 hover-2" href="#">
-							FOLLOW
-						</a>
-						<a class="btn-login btn color-1 size-2 hover-2" href="#/tag/id">
-							PAGE
-						</a>
-					</div>
-				</div>
-				<div class="gallery-box clearfix">
-					<a class="gallery-a" href="#"><img src="img/gallery-img-4.png" alt="img"></a>
-					<div class="gallery-info">
-						<h3>Lorem title text</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto aut corporis cumque dignissimos eos exercitationem facere labore labori.</p>
-					</div>
-					<div class="gallery-btn">
-						<a class="btn-login btn color-1 size-2 hover-2" href="#">
-							FOLLOW
-						</a>
-						<a class="btn-login btn color-1 size-2 hover-2" href="#/tag/id">
-							PAGE
-						</a>
-					</div>
-				</div>
-				<div class="gallery-box clearfix">
-					<a class="gallery-a" href="#"><img src="img/gallery-img-5.png" alt="img"></a>
-					<div class="gallery-info">
-						<h3>Lorem title text</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto aut corporis cumque dignissimos eos exercitationem facere labore labori.</p>
-					</div>
-					<div class="gallery-btn">
-						<a class="btn-login btn color-1 size-2 hover-2" href="#">
-							FOLLOW
-						</a>
-						<a class="btn-login btn color-1 size-2 hover-2" href="#/tag/id">
-							PAGE
-						</a>
-					</div>
-				</div>
+
+
+
+
 			</div>
              <div class="pagination clearfix">
 							<a class="btn color-4 hover-9 page-left" href="#">prev page</a>
 							<a class="btn color-4 hover-9 page-right" href="#">next page</a>					
 							<div class="pages">
 								<a class="btn color-5 hover-9" href="">1</a>
-								<a class="btn color-5 hover-9" href="">2</a>
-								<a class="btn color-5 hover-9" href="">3</a>
-								<a class="btn color-5 hover-9" href="">4</a>
-								<a class="btn color-5 hover-9" href="">...</a>
-								<a class="btn color-5 hover-9" href="">10</a>
+								
+								
 							</div>
 
 				</div>
