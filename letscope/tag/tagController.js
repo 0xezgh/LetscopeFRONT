@@ -25,6 +25,24 @@
                 $scope.msg = "No tags available";
             }
         });
+		
+		
+		
+		tagService.GetTagByName(name, function (response) {
+		 $scope.tag = {
+            name : "",
+            description : ""
+        };
+		$scope.tags = [];
+		
+		
+            if(response.success){
+               $scope.tag=response.tag;
+            }
+            else{
+                $scope.msg = "Tag not found";
+            }
+        });
 
 
 

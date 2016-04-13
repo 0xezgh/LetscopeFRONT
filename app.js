@@ -26,7 +26,7 @@
 		$routeProvider
 			.when('/',{
 			 	controller:'LoginController',
-                templateUrl:'login/login.html'
+                templateUrl:'letscope/login/login.html'
 		})
             .when('/activity',{
 				controller:'PostController',
@@ -36,20 +36,24 @@
 				controller:'tagController',
 				templateUrl:'tags.html'
 		})
-            .when('/tag/:id',{
+            .when('/tag/:name',{
+				controller:'tagController',
 				templateUrl:'tag.html'
 		})
-            .when('/user/',{
-				templateUrl:'profile.html'
-		})
-            .when('/profile/:username',{
+				.when('/profile',{
 				controller:'ProfileController',
-				templateUrl:'user/show-profile.html'
-		})
-            .when('/profile/edit/:username',{
+				templateUrl:'letscope/user/show-profile.html'
+				})
+
+				.when('/profile/edit',{
+					controller:'ProfileController',
+					templateUrl:'letscope/user/edit-profile.html'
+				})
+
+			.when('/profile/:id',{
 				controller:'ProfileController',
-				templateUrl:'user/edit-profile.html'
-		})
+				templateUrl:'letscope/user/profile.html'
+			})
             .when('/work/',{
 				controller:'PostController',
                 templateUrl:'post/work.html'
