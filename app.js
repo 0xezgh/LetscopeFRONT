@@ -50,8 +50,9 @@
 				controller:'ProfileController',
 				templateUrl:'user/edit-profile.html'
 		})
-            .when('/work',{
-				templateUrl:'work.html'
+            .when('/work/',{
+				controller:'PostController',
+                templateUrl:'post/work.html'
 		})
             .when('/post/pic',{
 				templateUrl:'post-pic.html'
