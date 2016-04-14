@@ -26,10 +26,11 @@
 		$routeProvider
 			.when('/',{
 			 	controller:'LoginController',
-                templateUrl:'login/login.html'
+                templateUrl:'letscope/login/login.html'
 		})
             .when('/activity',{
-				templateUrl:'activity.html'
+				controller:'PostController',
+				templateUrl:'post/activity.html'
 		})
             .when('/tag',{
 				controller:'tagController',
@@ -39,21 +40,31 @@
 				controller:'tag2Controller',
 				templateUrl:'tag.html'
 		})
-            .when('/user/',{
-				templateUrl:'profile.html'
-		})
-            .when('/profile/:username',{
+				.when('/profile',{
 				controller:'ProfileController',
-				templateUrl:'user/show-profile.html'
-		})
-            .when('/profile/edit/:username',{
+				templateUrl:'letscope/user/show-profile.html'
+				})
+
+				.when('/profile/edit',{
+					controller:'ProfileController',
+					templateUrl:'letscope/user/edit-profile.html'
+				})
+
+			.when('/profile/:id',{
 				controller:'ProfileController',
-				templateUrl:'user/edit-profile.html'
-		})
+				templateUrl:'letscope/user/profile.html'
+			})
             .when('/work/',{
 				controller:'PostController',
                 templateUrl:'post/work.html'
 		})
+		
+		
+		.when('/work/:id',{
+				controller:'PostController',
+                templateUrl:'post/workEdit.html'
+				})
+		
             .when('/post/pic',{
 				templateUrl:'post-pic.html'
 		})
