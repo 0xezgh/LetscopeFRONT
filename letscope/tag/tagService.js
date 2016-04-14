@@ -48,7 +48,7 @@
         }
 		
 		
-		function GetPostsByTag(name,callback){
+		function GetPostsByName(name,callback){
             var response;
 
             tagDataService.get({

@@ -40,6 +40,10 @@
 				controller:'tag2Controller',
 				templateUrl:'tag.html'
 		})
+		    .when('/tag2/:name',{
+				controller:'postandtagController',
+				templateUrl:'tag.html'
+		})
 				.when('/profile',{
 				controller:'ProfileController',
 				templateUrl:'letscope/user/show-profile.html'

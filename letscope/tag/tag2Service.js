@@ -11,7 +11,7 @@
         var service = {};
 
         service.GetTags = GetTags;
-		service.GetTagByName = GetTagByName;
+		service.GetPostByTag = GetPostByTag;
         
 
         return service;
@@ -22,19 +22,16 @@
 		
 		
 		
-		function GetPostByName(name,callback){
+		function GetPostByTag(titre,callback){
             var response;
 
             tag2DataService.query({
-                name : name 
+                titre : titre 
             },function(posts){
                 if(posts.error == null)
                 {	
-					console.log("getting a specific tag !");
-					console.log(name);
-                    console.log(tag);
-					console.log(tag.name);
-					console.log(tag.description);
+					console.log("getting posts by tag !");
+					
                     response = {success : true,
 								posts:posts
 					};

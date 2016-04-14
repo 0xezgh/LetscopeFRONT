@@ -3,13 +3,13 @@
 
 	angular
 			.module('letscope')
-			.factory('tag2DataService',tag2DataService);
+			.factory('tagDataService',tagDataService);
 
-	tag2DataService.$inject = ['$resource']
+	tagDataService.$inject = ['$resource']
 
-	function tag2DataService($resource){
-		return $resource('http://localhost:3000/post/:name',{name: '@name'},
-				{   'get':    {method: 'GET' , params: {name: '@name'} ,isArray:true},
+	function tagDataService($resource){
+		return $resource('http://localhost:3000/tag/:name',{name: '@name'},
+				{   'get':    {method: 'GET' , params: {name: '@name'} },
 					
 					'query':  {method:'GET', isArray:true}
 				},
