@@ -9,8 +9,9 @@
 
 	function tagDataService($resource){
 		return $resource('http://localhost:3000/tag/:name',{name: '@name'},
-				{   'get':            {method: 'GET', params: { name: '@name'}},
-					'list':    	  	  {method: 'GET ', isArray:true}
+				{   'get':    {method: 'GET' , params: {name: '@name'} },
+					
+					'query':  {method:'GET', isArray:true}
 				},
 				{
 					stripTrailingSlashes: false

@@ -3,11 +3,11 @@
 
     angular
         .module('letscope')
-        .factory('tagService',tagService);
+        .factory('tag2Service',tag2Service);
 
-    tagService.$inject = ['tagDataService'];
+    tag2Service.$inject = ['tag2DataService'];
 
-    function tagService (tagDataService){
+    function tag2Service (tag2DataService){
         var service = {};
 
         service.GetTags = GetTags;
@@ -22,13 +22,13 @@
 		
 		
 		
-		function GetTagByName(name,callback){
+		function GetPostByName(name,callback){
             var response;
 
-            tagDataService.get({
+            tag2DataService.query({
                 name : name 
-            },function(tag){
-                if(tag.error == null)
+            },function(posts){
+                if(posts.error == null)
                 {	
 					console.log("getting a specific tag !");
 					console.log(name);
@@ -36,7 +36,7 @@
 					console.log(tag.name);
 					console.log(tag.description);
                     response = {success : true,
-								tag:tag
+								posts:posts
 					};
                 }
                 else{
@@ -47,31 +47,7 @@
             });
         }
 		
-		
-		function GetPostsByTag(name,callback){
-            var response;
 
-            tagDataService.get({
-                name : name 
-            },function(tag){
-                if(tag.error == null)
-                {	
-					console.log("getting a specific tag !");
-					console.log(name);
-                    console.log(tag);
-					console.log(tag.name);
-					console.log(tag.description);
-                    response = {success : true,
-								tag:tag
-					};
-                }
-                else{
-                    console.log("!Done");
-                    response = {success : false, message: tag.error};
-                }
-                callback(response);
-            });
-        }
 		
 		
 		

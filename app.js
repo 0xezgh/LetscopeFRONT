@@ -36,7 +36,7 @@
 				templateUrl:'tags.html'
 		})
             .when('/tag/:name',{
-				controller:'tagController',
+				controller:'tag2Controller',
 				templateUrl:'tag.html'
 		})
             .when('/user/',{
