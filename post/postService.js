@@ -11,6 +11,8 @@
         var service = {};
 
         service.AddWork = AddWork;
+        service.GetPosts = GetPosts;
+        service.UpdatePost = UpdatePost;
 
         return service;
 
@@ -39,20 +41,19 @@
         }
 		
 		
-        function GetPost(callback){
+        function GetPosts(id,callback){
             var response;
             
-            postDataService.query({
+            PostDataService.list({
+			
                 
                
-            },function(post){
-                if(post.error == null)
+            },function(posts){
+                if(posts.error == null)
                 {
-                    console.log(post[0]);
-					console.log(post[0].name);
-					console.log(post[0].description);
+                    console.log(posts);
                     response = {success : true,
-								post : post
+								posts : posts
 					};
                 }
                 else{
@@ -62,6 +63,30 @@
                 callback(response);
             });
         }
+		
+		
+		
+	function UpdatePost(id,title,shortDesc,callback){
+            var response;
+            PostDataService.update({
+                id : id,
+                title : title,
+				shortDesc : shortDesc
+            },function(post){
+                if(post.error == null)
+                {
+                    console.log("Done");
+                    response = {success : true};
+                }
+                else{
+                    console.log("!Done");
+                    response = {success : false};
+                }
+                callback(response);
+            });
+        }
+
+		
 
      /*  function UpdateProfile(id,fname,lname,occupation,website,country,city,aboutme,myhobbies,facebook,twitter,google,pinterest,instagram,linkedin,callback){
             var response;

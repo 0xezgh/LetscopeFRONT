@@ -58,6 +58,13 @@
 				controller:'PostController',
                 templateUrl:'post/work.html'
 		})
+		
+		
+		.when('/work/:id',{
+				controller:'PostController',
+                templateUrl:'post/workEdit.html'
+				})
+		
             .when('/post/pic',{
 				templateUrl:'post-pic.html'
 		})
