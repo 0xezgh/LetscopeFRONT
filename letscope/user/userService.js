@@ -42,7 +42,8 @@
                         pinterest : user.pinterest.url,
                         instagram : user.instagram.url,
                         linkedin : user.linkedin.url,
-                        website : user.website
+                        website : user.website,
+                        followers : user.followedusers.length
                     };
                 }else
                 {

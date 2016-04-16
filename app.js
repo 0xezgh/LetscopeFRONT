@@ -2,7 +2,7 @@
 	'user strict';
 	
 	angular
-		.module('letscope',['ngRoute','ngResource','ngFileUpload'])
+		.module('letscope',['ngRoute','ngResource','ngFileUpload','file-uploader'])
         .value('AuthenticatedUser',{})
 		.config(config)
         .run(function($rootScope, $location) {
@@ -28,6 +28,10 @@
 			 	controller:'LoginController',
                 templateUrl:'letscope/login/login.html'
 		})
+				.when('/forget',{
+					controller:'LoginController',
+					templateUrl:'letscope/login/forget.html'
+				})
             .when('/activity',{
 				templateUrl:'activity.html'
 		})

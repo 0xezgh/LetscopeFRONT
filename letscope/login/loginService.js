@@ -12,13 +12,13 @@
 
 		service.Register = Register;
 		service.Login = Login;
-
+		service.ForgetPassword = ForgetPassword ;
 
 		return service;
 
 		function Register(fname,lname,username,email,country,birthdate,newsletter,password,callback){
 			var response;
-			authDataService.RegisterUser().save({
+			authDataService.register({
 								fname: fname,
 								lname: lname,
 								username: username,
@@ -42,7 +42,7 @@
 		function Login(username,password,callback){
 			 var response;
 			
-			authDataService.Login().save({username: username,password: password},function(user){
+			authDataService.login({username: username,password: password},function(user){
 				 if(user !== null &&  user.password == password)
                  {
 						response = {success:true, userId : user.id, userName : user.fName, userLname : user.lName};
@@ -54,7 +54,20 @@
 			});
 		}
 
+		function ForgetPassword(email, callback){
+			var response;
+			authDataService.forget({email: email},function(email){
+				if(email.error == null )
+				{
+					response = {success:true, msg: email.info};
+				} else
+				{
+					response = {success:false, msg: email.error};
+				}
+				callback(response);
+			});
 
+		}
 
 		/*function GetType(user,typeCallback){
 			var pathResponse;

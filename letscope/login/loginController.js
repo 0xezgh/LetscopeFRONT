@@ -16,7 +16,7 @@
 			years.push(i);
 
 		$scope.credentials = {
-			username: '',
+			email: '',
 			password: ''
 		};
 
@@ -347,11 +347,20 @@
 					  };
 				}
 			});
-			
-			
-			
 		};
 
+		$scope.forget = function(email){
+			LoginService.ForgetPassword(email,function(response){
+				if (response.success) {
+					console.log("Email sent !");
+					$scope.msg = response.msg;
+				}
+				else {
+					console.log("Error while sending email !");
+					$scope.msg = response.msg;
+				}
+			});
 		}
-		
+
+		}
 })();

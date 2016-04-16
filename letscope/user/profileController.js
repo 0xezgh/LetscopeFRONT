@@ -8,7 +8,7 @@
     ProfileController.$inject = ['UserService','Upload','$scope','$location','AuthenticatedUser','$rootScope'];
 
     function ProfileController(UserService,Upload,$scope,$location,AuthenticatedUser,$rootScope){
-        var id = '570b75733d1ab0700be75108';
+        var id = '570f7ea735c8d4c818471a57';
 
         /*if($location.path()=='/profile')
         {
@@ -266,6 +266,11 @@
             'Zimbabwe'
         ];
 
+        $scope.credentials = {
+            email : "",
+            password : ""
+        }
+
         $scope.profile = {
             image : "",
             fname : "",
@@ -302,13 +307,29 @@
                 $scope.profile.instagram = response.instagram;
                 $scope.profile.linkedin = response.linkedin;
                 $scope.profile.website = response.website;
+                $scope.profile.followers = response.followers;
                 }
             else{
                 $scope.msg = "Error while loading profile";
             }
         });
 
-        $scope.update = function(profile){
+        $scope.uploadFile = function(){
+
+                console.log($scope.file);
+
+                Upload.upload({
+                        url: "http://127.0.0.1:3000/user/upload/zefze", //node.js route
+                        file: $scope.file
+                    })
+                    .success(function(data) {
+                        console.log(data, 'uploaded');
+                    });
+
+
+        };
+
+        /*$scope.update = function(profile){
             console.log(profile);
             UserService.UpdateProfile(id,profile.fname,profile.lname,profile.occupation,profile.website,profile.country,profile.city,profile.aboutme,profile.myskills,profile.facebook,profile.twitter,profile.google,profile.pinterest,profile.instagram,profile.linkedin,function(response){
                 if (response.success)
@@ -320,11 +341,29 @@
                 }
             });
         };
-
-        $scope.onFileSelect = function(image) {
+        $scope.submit = function() {
+            if ( $scope.file) {
+                console.log('fv');
+                $scope.upload($scope.file);
+            }
+        };
+        $scope.upload = function (file) {
+            Upload.upload({
+                url: 'http://localhost:3000/user/upload/'+id,
+                data: {file: file, 'id': id}
+            }).then(function (resp) {
+                console.log('Success ' + resp.config.data.file.name + 'uploaded. Response: ' + resp.data);
+            }, function (resp) {
+                console.log('Error status: ' + resp.status);
+            }, function (evt) {
+                var progressPercentage = parseInt(100.0 * evt.loaded / evt.total);
+                console.log('progress: ' + progressPercentage + '% ' + evt.config.data.file.name);
+            });
+        };*/
+    /*    $scope.onFileSelect = function(image) {
             $scope.uploadInProgress = true;
             $scope.uploadProgress = 0;
-
+            console.log(image);
             if (angular.isArray(image)) {
                 image = image[0];
             }
@@ -338,7 +377,7 @@
                 file: image
             }).progress(function(event) {
                 console.log("start uploading");
-                $scope.uploadProgress = Math.floor(event.loaded / event.total);
+                /*$scope.uploadProgress = Math.floor(event.loaded / event.total);
                 $scope.$apply();
             }).success(function(data, status, headers, config) {
                // AlertService.success('Photo uploaded!');
@@ -349,22 +388,19 @@
                 console.log('Error uploading file: ' + err.message || err);
             });
         };
-
+*/
         $scope.follow = function () {
             var followed = $location.path().split('/')[2];
             UserService.FollowUser(id, followed, function (response) {
                 if (response.success) {
-                    console.log("Successfully modified !");
-                    $scope.msg = "Successfully modified !";
+                    console.log("User followed !");
                 }
                 else {
-                    console.log("Snooo");
-                    $scope.msg = "Changes has not been applied !";
+                    console.log("Probème has occured! ");
                 }
             });
         }
     }
-
 })();
 
 
