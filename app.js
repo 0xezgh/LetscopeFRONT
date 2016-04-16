@@ -33,14 +33,19 @@
 					templateUrl:'letscope/login/forget.html'
 				})
             .when('/activity',{
-				templateUrl:'activity.html'
+				controller:'PostController',
+				templateUrl:'post/activity.html'
 		})
             .when('/tag',{
 				controller:'tagController',
 				templateUrl:'tags.html'
 		})
             .when('/tag/:name',{
-				controller:'tagController',
+				controller:'tag2Controller',
+				templateUrl:'tag.html'
+		})
+		    .when('/tag2/:name',{
+				controller:'postandtagController',
 				templateUrl:'tag.html'
 		})
 				.when('/profile',{
@@ -61,6 +66,13 @@
 				controller:'PostController',
                 templateUrl:'post/work.html'
 		})
+		
+		
+		.when('/work/:id',{
+				controller:'PostController',
+                templateUrl:'post/workEdit.html'
+				})
+		
             .when('/post/pic',{
 				templateUrl:'post-pic.html'
 		})

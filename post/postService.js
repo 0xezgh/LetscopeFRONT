@@ -11,6 +11,8 @@
         var service = {};
 
         service.AddWork = AddWork;
+        service.GetPosts = GetPosts;
+        service.UpdatePost = UpdatePost;
 
         return service;
 
@@ -37,6 +39,54 @@
                 callback(response);
             });
         }
+		
+		
+        function GetPosts(id,callback){
+            var response;
+            
+            PostDataService.list({
+			
+                
+               
+            },function(posts){
+                if(posts.error == null)
+                {
+                    console.log(posts);
+                    response = {success : true,
+								posts : posts
+					};
+                }
+                else{
+                    console.log("!Done");
+                    response = {success : false};
+                }
+                callback(response);
+            });
+        }
+		
+		
+		
+	function UpdatePost(id,title,shortDesc,callback){
+            var response;
+            PostDataService.update({
+                id : id,
+                title : title,
+				shortDesc : shortDesc
+            },function(post){
+                if(post.error == null)
+                {
+                    console.log("Done");
+                    response = {success : true};
+                }
+                else{
+                    console.log("!Done");
+                    response = {success : false};
+                }
+                callback(response);
+            });
+        }
+
+		
 
      /*  function UpdateProfile(id,fname,lname,occupation,website,country,city,aboutme,myhobbies,facebook,twitter,google,pinterest,instagram,linkedin,callback){
             var response;

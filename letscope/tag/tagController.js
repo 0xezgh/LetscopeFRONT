@@ -11,10 +11,7 @@
 
 
         tagService.GetTags(function (response) {
-		 $scope.tag = {
-            name : "",
-            description : ""
-        };
+
 		$scope.tags = [];
 		
 		
@@ -27,22 +24,29 @@
         });
 		
 		
+		/*$scope.GetTagByName=function(name){
+		console.log("name");
+		
 		
 		tagService.GetTagByName(name, function (response) {
 		 $scope.tag = {
             name : "",
             description : ""
         };
-		$scope.tags = [];
-		
-		
             if(response.success){
-               $scope.tag=response.tag;
+				console.log(response.name);
+				$scope.tag.name=response.name;
+				$scope.tag.description=response.description;
+				
+               console.log(response);
             }
             else{
                 $scope.msg = "Tag not found";
             }
         });
+}*/
+		
+		
 
 
 

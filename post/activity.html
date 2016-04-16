@@ -1,0 +1,55 @@
+    <!-- THE HEADER -->
+	<ng-include src="'shared/header.html'" ></ng-include>  
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=1509895925986113";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- MAIN CONTENT -->
+	<div id="content-block">
+		<div class="container-fluid custom-container be-detail-container">
+			<div class="isotope-grid row">
+				<div class="isotope-item col-ml-12 col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-2" ng-repeat="p in posts" >
+					<div class="be-post style-5 "  >
+						<a href="#/post/video" class="be-img-block">
+						<img src="img/{{p.content.imgContent}}" alt="omg">
+						</a>
+						<div class="be-rowline">
+							<img class="rowline-img" src="img/{{p.content.imgContent}}" alt="">
+							<div class="rowline-text">{{p.title}} <span class="rowline-icon"><i class="fa fa-comment-o"></i></span></div>
+						</div>
+						<div class="be-rowline">
+							<img class="rowline-img" src="img/line_3.jpg" alt="">
+							<div class="rowline-text">{{p.title}} <span class="rowline-icon"><i class="fa fa-pencil"></i></span></div>
+						</div>												
+						<div class="author-post">
+							<img src="img/a10.jpg" alt="" class="ava-author">
+							<span>by <a href="#/profile">Paweł Skupień</a></span>
+							<span class="pull-right"><i class="fa fa-thumbs-o-up"></i> 225</span>
+						</div>
+						<div class="fb-share-button" data-href="https://www.facebook.com/letscopeTN/" data-layout="button_count" data-mobile-iframe="true"></div>
+					</div>
+				</div>
+			
+				
+				
+			
+			
+				
+			
+				
+			
+			
+				
+		
+			
+				
+			
+			</div>
+		</div>
+	</div>
+
+    <div class="be-fixed-filter"></div>
