@@ -8,7 +8,7 @@
     ProfileController.$inject = ['UserService','Upload','$scope','$location','AuthenticatedUser','$rootScope'];
 
     function ProfileController(UserService,Upload,$scope,$location,AuthenticatedUser,$rootScope){
-        var id = '570f7ea735c8d4c818471a57';
+        var id = '57160cf4bde9495009799cff';
 
         /*if($location.path()=='/profile')
         {
@@ -314,9 +314,36 @@
             }
         });
 
-        $scope.uploadFile = function(){
+        $scope.uploadFile = function(file){
+            console.log(file);
+            Upload.upload({
+                url: 'http://localhost:3000/user/upload/'+id, //webAPI exposed to upload the file
+                data:{file:file} //pass file as data, should be user ng-model
+            }).then(function (resp) { //upload function returns a promise
+                    if(resp.data.error_code === 0){ //validate success
+                        console.log('Success uploaded. Response: ');
+                       // $scope.uploadImgSuccess = true;
+                    } else {
+                        console.log('an error occurred');
+                    }
+                }, function (resp) { //catch error
+                    console.log('Error status: ' + resp.err);
+                }, function (evt) {
+                    console.log(evt);
+                    var progressPercentage = parseInt(100.0 * evt.loaded / evt.total);
+                    console.log('progress: ' + progressPercentage + '% ' + evt.config.data.file.name);
+                    $scope.progress = 'progress: ' + progressPercentage + '% '; // capture upload progress
+                })
+                .finally(function(){
+                    Profile.getProfile($rootScope.loggedUser._id).$promise.then(function (user) {
+                        $rootScope.loggedUser=user;
+                        $localStorage.user = user;
+                    });
+                });
+        };/*
+        $scope.uploadFile = function(image){
 
-                console.log($scope.file);
+                console.log(image);
 
                 Upload.upload({
                         url: "http://127.0.0.1:3000/user/upload/zefze", //node.js route
@@ -327,7 +354,7 @@
                     });
 
 
-        };
+        };*/
 
         /*$scope.update = function(profile){
             console.log(profile);

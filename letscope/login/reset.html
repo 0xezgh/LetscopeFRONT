@@ -22,8 +22,8 @@
                            type="password" placeholder="New password" required>
                 </div>
                 <div class="col-md-6">
-                    <input class="input-signtype" ng-model="credentials.email"
-                           type="password" placeholder="Re-enter the new password" required>
+                    <input class="input-signtype" ng-model="passwordConfirm"
+                           type="password" placeholder="Re-enter the new password" match="password" required>
                 </div>
                 <div class="col-xs-6 for-signin">
                     <input type="submit" class="be-popup-sign-button" value="RESET PASSWORD">
