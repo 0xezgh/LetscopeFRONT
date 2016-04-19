@@ -362,5 +362,20 @@
 			});
 		}
 
+		$scope.reset = function(password){
+			var token = $location.path().split('/')[2];
+			LoginService.ResetPassword(token, password, function(response){
+				if (response.success) {
+					console.log("Password has changed !");
+					$scope.msg = response.msg;
+					$location.path('/#/');
+				}
+				else {
+					console.log("Error while changing password !");
+					$scope.msg = response.msg;
+				}
+			});
+		}
+
 		}
 })();

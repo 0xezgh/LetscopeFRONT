@@ -32,6 +32,10 @@
 					controller:'LoginController',
 					templateUrl:'letscope/login/forget.html'
 				})
+				.when('/reset/:token',{
+					controller:'LoginController',
+					templateUrl:'letscope/login/reset.html'
+				})
             .when('/activity',{
 				controller:'PostController',
 				templateUrl:'post/activity.html'

@@ -12,7 +12,8 @@
 
 		service.Register = Register;
 		service.Login = Login;
-		service.ForgetPassword = ForgetPassword ;
+		service.ForgetPassword = ForgetPassword;
+		service.ResetPassword = ResetPassword;
 
 		return service;
 
@@ -67,6 +68,21 @@
 				callback(response);
 			});
 
+		}
+
+		function ResetPassword(token, password, callback){
+			var response;
+
+			authDataService.reset({id: token ,password: password},function(user){
+				if(user.info != null)
+				{
+					response = {success:true, msg: user.info};
+				} else
+				{
+					response = {success:false, msg: user.error};
+				}
+				callback(response);
+			});
 		}
 
 		/*function GetType(user,typeCallback){

@@ -11,7 +11,8 @@
         return $resource('http://localhost:3000/auth/:operation/:id',{id: '@id'},
             {   'login':          {method: 'POST', params: { operation: 'login'}},
                 'register':    	  {method: 'POST', params: { operation: 'register'}},
-                'forget':		  {method: 'POST', params: { operation: 'forget'}}
+                'forget':		  {method: 'POST', params: { operation: 'forget'}},
+                'reset':		  {method: 'POST', params: { operation: 'reset'}}
             },
             {
                 stripTrailingSlashes: false
