@@ -2,7 +2,7 @@
 	'user strict';
 	
 	angular
-		.module('letscope',['ngRoute','ngResource','ngFileUpload','file-uploader'])
+		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match'])
         .value('AuthenticatedUser',{})
 		.config(config)
         .run(function($rootScope, $location) {
@@ -15,7 +15,7 @@
 	        else {
 	          $location.path("/");
 	        }
-	      } */
+	      }*/
 	    });
 	  });
     

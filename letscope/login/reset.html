@@ -13,7 +13,7 @@
 <div id="content-block">
     <div class="head-bg">
         <div class="head-bg-img"></div>
-        <form  ng-submit="reset(password)">
+        <form  name="myForm" ng-submit="reset(password)">
             <div class="head-bg-content">
                 <h1>Find Your Account</h1>
                 <p>Enter your new password :</p>
@@ -25,6 +25,7 @@
                     <input class="input-signtype" ng-model="passwordConfirm"
                            type="password" placeholder="Re-enter the new password" match="password" required>
                 </div>
+                <div ng-show="myForm.myConfirmField.$error.match"><h1>Fields do not match!</h1></div>
                 <div class="col-xs-6 for-signin">
                     <input type="submit" class="be-popup-sign-button" value="RESET PASSWORD">
                 </div>

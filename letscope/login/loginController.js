@@ -298,16 +298,13 @@
 
 		$scope.register = function(newUser){
 			var date = newUser.birthdate.day + "-" + newUser.birthdate.month.nbr + "-" + newUser.birthdate.year;
+
 			LoginService.Register(newUser.fname,newUser.lname,newUser.username,newUser.email,newUser.country.name,date,newUser.newsletter,newUser.password,function(response){
 				if(response.success){
 					$rootScope.AuthenticatedUser = {email : response.email, username : response.username};
 					console.log($rootScope.AuthenticatedUser);
-					/*LoginService.GetType(response.userId,function(pathResponse){
-						$rootScope.Role = pathResponse.role;
-						$location.path(pathResponse.path);
-						console.log('test',pathResponse.path);
-						console.log('test',$rootScope.Role);
-					})*/
+					$location.path("/activity");
+
 				}else{
 					$scope.errorMsg = response.message;
 					console.log(response.message);
@@ -329,15 +326,9 @@
 			 LoginService.Login(credentials.username,credentials.password,function(response){
 				if(response.success){
 					$rootScope.AuthenticatedUser = {username : response.username};
+					console.log(response.message);
 					console.log($rootScope.AuthenticatedUser);
 
-					/*LoginService.GetType(response.userId,function(pathResponse){
-						$rootScope.Role = pathResponse.role;
-						$location.path(pathResponse.path);
-						console.log('test',pathResponse.path);
-						console.log('test',$rootScope.Role);
-					})*/
-					
 				}else{
 					$scope.errorMsg = response.message;
 					console.log(response.message);
