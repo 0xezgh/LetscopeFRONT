@@ -7,7 +7,7 @@
 		.config(config)
         .run(function($rootScope, $location) {
 	    $rootScope.$on("$routeChangeStart", function(event, next, current) {
-	    	/*if ($rootScope.AuthenticatedUser== null) {
+	    	if ($rootScope.AuthenticatedUser== null) {
 	    	
 	        // no logged user, redirect to /login
 	        if ( next.templateUrl === "login/login.html") {
@@ -15,7 +15,7 @@
 	        else {
 	          $location.path("/");
 	        }
-	      }*/
+	      }
 	    });
 	  });
     

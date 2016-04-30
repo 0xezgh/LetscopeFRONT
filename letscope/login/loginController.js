@@ -16,22 +16,22 @@
 			years.push(i);
 
 		$scope.credentials = {
-			email: '',
+			username: '',
 			password: ''
 		};
 
 		$scope.init = {
 			days: days,
 			months: [
-				{nbr: '1', name: 'January'},
-				{nbr: '2', name: 'February'},
-				{nbr: '3', name: 'March'},
-				{nbr: '4', name: 'April'},
-				{nbr: '5', name: 'May'},
-				{nbr: '6', name: 'June'},
-				{nbr: '7', name: 'July'},
-				{nbr: '8', name: 'August'},
-				{nbr: '9', name: 'September'},
+				{nbr: '01', name: 'January'},
+				{nbr: '02', name: 'February'},
+				{nbr: '03', name: 'March'},
+				{nbr: '04', name: 'April'},
+				{nbr: '05', name: 'May'},
+				{nbr: '06', name: 'June'},
+				{nbr: '07', name: 'July'},
+				{nbr: '08', name: 'August'},
+				{nbr: '09', name: 'September'},
 				{nbr: '10', name: 'October'},
 				{nbr: '11', name: 'November'},
 				{nbr: '12', name: 'December'}
@@ -301,10 +301,9 @@
 
 			LoginService.Register(newUser.fname,newUser.lname,newUser.username,newUser.email,newUser.country.name,date,newUser.newsletter,newUser.password,function(response){
 				if(response.success){
-					$rootScope.AuthenticatedUser = {email : response.email, username : response.username};
+					$rootScope.AuthenticatedUser = {email : response.email, username : response.username, id : response.id};
 					console.log($rootScope.AuthenticatedUser);
-					$location.path("/activity");
-
+					$location.path("/#/activity/");
 				}else{
 					$scope.errorMsg = response.message;
 					console.log(response.message);
@@ -325,9 +324,13 @@
 		$scope.login = function(credentials){
 			 LoginService.Login(credentials.username,credentials.password,function(response){
 				if(response.success){
-					$rootScope.AuthenticatedUser = {username : response.username};
+					$rootScope.AuthenticatedUser = {
+						id : response.id,
+						name : response.name
+					};
 					console.log(response.message);
 					console.log($rootScope.AuthenticatedUser);
+					$location.path("/activity/");
 
 				}else{
 					$scope.errorMsg = response.message;
@@ -359,7 +362,7 @@
 				if (response.success) {
 					console.log("Password has changed !");
 					$scope.msg = response.msg;
-					$location.path('/#/');
+					$location.path('/');
 				}
 				else {
 					console.log("Error while changing password !");

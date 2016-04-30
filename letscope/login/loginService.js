@@ -34,7 +34,7 @@
 							},function(user){
 				if(user.error == null)
 				{
-					response = {success:true, email: user.email, username: user.username};
+					response = {success:true, email: user.email, username: user.username, id: user._id};
 				}else
 				{
 					response = {success:false, message: user.error};
@@ -61,7 +61,7 @@
 			authDataService.login({username: username,password: password},function(user){
 				 if(user.err == null)
                  {
-						response = {success:true, message: user.status};
+						response = {success:true, message: user.status, id: user.id, name: user.name};
                  } else
                  {
 				        response = {success:false, message: user.err};
