@@ -11,7 +11,10 @@
 		var service = {};
 
 		service.Register = Register;
+		service.GetUserStatus = GetUserStatus;
+		service.IsLoggedIn = IsLoggedIn;
 		service.Login = Login;
+		service.Logout = Logout;
 		service.ForgetPassword = ForgetPassword;
 		service.ResetPassword = ResetPassword;
 
@@ -31,7 +34,7 @@
 							},function(user){
 				if(user.error == null)
 				{
-					response = {success:true, email: user.email, username: user.username};
+					response = {success:true, email: user.email, username: user.username, id: user._id};
 				}else
 				{
 					response = {success:false, message: user.error};
@@ -40,18 +43,45 @@
 			});
 		}
 
+		function GetUserStatus(user){
+			return user;
+		}
+
+		function IsLoggedIn(user){
+			if(user) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+
 		function Login(username,password,callback){
 			 var response;
 			
 			authDataService.login({username: username,password: password},function(user){
-				 if(user !== null &&  user.password == password)
+				 if(user.err == null)
                  {
-						response = {success:true, userId : user.id, userName : user.fName, userLname : user.lName};
+						response = {success:true, message: user.status, id: user.id, name: user.name};
                  } else
                  {
-				        response = {success:false, message: 'Username or password is incorrect !'};
+				        response = {success:false, message: user.err};
 				 }
 				 callback(response);
+			});
+		}
+
+		function Logout(callback){
+			var response;
+
+			authDataService.logout(function(data){
+				if(data.status!== null)
+				{
+					response = {success:true, message: 'Logged out !'};
+				} else
+				{
+					response = {success:false, message: 'Something went wrong !'};
+				}
+				callback(response);
 			});
 		}
 
