@@ -12,6 +12,7 @@
 				{   'get':            {method: 'GET', params: { id: '@id'}},
 					'update':    	  {method: 'PUT' , params: { id: '@id'}},
 					'list':    	  	  {method: 'GET' , isArray:true },
+					'listByTag':      {method: 'GET' , params: {id: '@id'}, isArray:true },
 					'save' : {method : 'POST'}
 				},
 				{

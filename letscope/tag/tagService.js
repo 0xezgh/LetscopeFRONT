@@ -76,6 +76,31 @@
 		
 		
 		
+		
+		function GetPostsByTag(idTag,callback){
+            var response;
+
+            tagDataService.query({
+                idTag : idTag 
+            },function(posts){
+                if(posts.error == null)
+                {	
+					console.log("getting posts by tag !");
+					console.log(idTag);
+                    
+                    response = {success : true,
+								posts:posts
+					};
+                }
+                else{
+                    console.log("!Done");
+                    response = {success : false, message: tag.error};
+                }
+                callback(response);
+            });
+        }
+		
+		
 		    function GetTags(callback){
             var response;
             

@@ -40,11 +40,11 @@
 				controller:'PostController',
 				templateUrl:'post/activity.html'
 		})
-            .when('/tag',{
+            .when('/tags',{
 				controller:'tagController',
 				templateUrl:'tags.html'
 		})
-            .when('/tag/:name',{
+            .when('/tag/:idTag',{
 				controller:'tag2Controller',
 				templateUrl:'tag.html'
 		})

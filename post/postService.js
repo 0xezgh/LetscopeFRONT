@@ -13,7 +13,8 @@
         service.AddWork = AddWork;
         service.GetPosts = GetPosts;
         service.UpdatePost = UpdatePost;
-
+		service.GetPostsByTag = GetPostsByTag;
+		
         return service;
 
         function AddWork(title,longDesc,shortDesc,txtContent,imgContent,callback){
@@ -64,6 +65,34 @@
             });
         }
 		
+		
+		function GetPostsByTag(idTag,callback){
+            var response;
+
+            PostDataService.listByTag({
+                idTag : idTag 
+            },function(posts){
+                if(posts.error == null)
+                {	
+					console.log("getting posts by tag !");
+					console.log(idTag);
+					console.log("tag 0");
+                    console.log(posts[0].tag);
+					console.log(posts[0].title);
+					console.log("tag 1");
+                    console.log(posts[1].tag);
+					console.log(posts[1].title);
+                    response = {success : true,
+								posts:posts
+					};
+                }
+                else{
+                    console.log("!Done");
+                    response = {success : false, message: posts.error};
+                }
+                callback(response);
+            });
+        }	
 		
 		
 	function UpdatePost(id,title,shortDesc,callback){

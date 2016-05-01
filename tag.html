@@ -3,11 +3,12 @@
 
     <!-- MAIN CONTENT -->
 	<div id="content-block">
+	
 		<div class="container be-detail-container">
-			<h2 class="content-title" >{{tag.name}}</h2>
+			<h2 class="content-title" ></h2>
 			<div class="blog-wrapper blog-grid">
 				<div class="row">
-					<div class="grid-item col-xs-12 col-sm-6 col-md-4">
+					<div class="grid-item col-xs-12 col-sm-6 col-md-4" ng-repeat="p in posts">
 						<div class="blog-post">
 							<div class="post-header clearfix">
 								<div class="post-date">
@@ -15,10 +16,10 @@
 								</div>
 							
 							</div>						
-							<a class="post-preview post-image" href="#/post/pic"><img class="img-responsive img-full" src="img/{{tag.name}}.jpg" alt=""></a>
+							<a class="post-preview post-image" href="#/post/pic"></a>
 							<div class="post-desc">
-								<div class="post-category">{{tag.name}}</div>
-								<a class="post-label" href="#/post/pic">full {{tag.name}} package offer</a>
+								<div class="post-category">{{p.description.shortDesc}}</div>
+								<a class="post-label" href="#/post/pic">{{p.description.longDesc}}</a>
 								
 								
 																							
