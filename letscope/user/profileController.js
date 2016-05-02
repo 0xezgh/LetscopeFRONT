@@ -5,20 +5,22 @@
         .module('letscope')
         .controller('ProfileController',ProfileController);
 
-    ProfileController.$inject = ['UserService','Upload','$scope','$location','AuthenticatedUser','$rootScope'];
+    ProfileController.$inject = ['UserService','Upload','$scope','$location','$rootScope','notificationSocket'];
 
-    function ProfileController(UserService,Upload,$scope,$location,AuthenticatedUser,$rootScope){
-        var id = '57160cf4bde9495009799cff';
+    function ProfileController(UserService,Upload,$scope,$location,$rootScope){
+        var id;
 
-        /*if($location.path()=='/profile')
+        if($location.path()=='/profile' || $location.path()=='/profile/edit')
         {
-            id = AuthenticatedUser.id;
+            id = $rootScope.AuthenticatedUser.id;
         }else
         {
-            id =    splice ...
-        }    */
+            id = $location.path().split('/')[2];
+        }
 
         $scope.msg = "";
+
+        $scope.notifications = [];
 
         $scope.countries = [
             'Afghanistan',
@@ -291,7 +293,6 @@
 
         UserService.GetProfile(id, function (response) {
             if(response.success){
-                console.log(response);
                 $scope.profile.image = response.image;
                 $scope.profile.fname = response.fname;
                 $scope.profile.lname = response.lname;
@@ -307,52 +308,72 @@
                 $scope.profile.instagram = response.instagram;
                 $scope.profile.linkedin = response.linkedin;
                 $scope.profile.website = response.website;
-                $scope.profile.followers = response.followers;
+                $scope.profile.following = response.following;
                 }
             else{
                 $scope.msg = "Error while loading profile";
             }
         });
 
+        $scope.update = function(profile){
+            UserService.UpdateProfile(id,profile.fname,profile.lname,profile.birthdate,profile.occupation,profile.website,profile.country,profile.city,profile.aboutme,profile.myskills,profile.facebook,profile.twitter,profile.google,profile.pinterest,profile.instagram,profile.linkedin,function(response){
+                if (response.success)
+                {
+                    $scope.msg = "Successfully modified !";
+                }
+                else{
+                    $scope.msg = "Changes has not been applied !";
+                }
+            });
+        };
+
         $scope.uploadFile = function(file){
-            console.log(file);
             Upload.upload({
                 url: 'http://localhost:3000/user/upload/'+id, //webAPI exposed to upload the file
                 data:{file:file} //pass file as data, should be user ng-model
             }).then(function (resp) { //upload function returns a promise
-                    if(resp.data.error_code === 0){ //validate success
-                        console.log('Success uploaded. Response: ');
-                       // $scope.uploadImgSuccess = true;
-                    } else {
-                        console.log('an error occurred');
-                    }
-                }, function (resp) { //catch error
-                    console.log('Error status: ' + resp.err);
-                }, function (evt) {
-                    console.log(evt);
-                    var progressPercentage = parseInt(100.0 * evt.loaded / evt.total);
-                    console.log('progress: ' + progressPercentage + '% ' + evt.config.data.file.name);
-                    $scope.progress = 'progress: ' + progressPercentage + '% '; // capture upload progress
-                })
-                .finally(function(){
-                    Profile.getProfile($rootScope.loggedUser._id).$promise.then(function (user) {
-                        $rootScope.loggedUser=user;
-                        $localStorage.user = user;
-                    });
-                });
+                if(resp.data.info){ //validate success
+                    console.log(resp.data.info);
+                } else {
+                    console.log(resp.data.error);
+                }
+            }, function (resp) { //catch error
+                console.log('Error status: ' + resp.err);
+            }, function (evt) {
+                console.log(evt);
+                var progressPercentage = parseInt(100.0 * evt.loaded / evt.total);
+                console.log('progress: ' + progressPercentage + '% ' + evt.config.data.file.name);
+                //$scope.progress = 'progress: ' + progressPercentage + '% '; // capture upload progress
+            }).finally(function(){
+                $location.path('/profile');
+            });
         };
 
         $scope.follow = function () {
             var followed = $location.path().split('/')[2];
             UserService.FollowUser(id, followed, function (response) {
                 if (response.success) {
-                    console.log("User followed !");
+                    $scope.msg = "User followed !";
+                    console.log($scope.notifications);
                 }
                 else {
-                    console.log("Probème has occured! ");
+                    $scope.msg = "Problem has occurred! ";
                 }
             });
         }
+
+        $scope.$on('socket:notification', function(event, data) {
+            console.log('got a message'+ event.name);
+            if (!data.payload) {
+                $log.error('invalid message', 'event', event,
+                    'data', JSON.stringify(data));
+                return;
+            }
+            $scope.$apply(function() {
+                $scope.notifications = push(messageFormatter(new Date(), data.source,data.payload));
+            });
+        });
+
     }
 })();
 

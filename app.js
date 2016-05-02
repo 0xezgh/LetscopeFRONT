@@ -2,12 +2,13 @@
 	'user strict';
 	
 	angular
-		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match'])
+		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match','btford.socket-io'])
         .value('AuthenticatedUser',{})
+			.value('messageFormatter', MessageFormatter)
 		.config(config)
         .run(function($rootScope, $location) {
 	    $rootScope.$on("$routeChangeStart", function(event, next, current) {
-	    	if ($rootScope.AuthenticatedUser== null) {
+	    	/*if ($rootScope.AuthenticatedUser== null) {
 	    	
 	        // no logged user, redirect to /login
 	        if ( next.templateUrl === "login/login.html") {
@@ -15,13 +16,13 @@
 	        else {
 	          $location.path("/");
 	        }
-	      }
+	      }*/
 	    });
 	  });
     
 	
 	config.$inject = ['$routeProvider'];
-	
+
 	function config($routeProvider,$rootScope){
 		$routeProvider
 			.when('/',{
@@ -99,4 +100,11 @@
 				templateUrl:'contact-us.html'
 		})
 	}
+
+	function MessageFormatter(date, nick, message) {
+		return date.toLocaleTimeString() + ' - ' +
+				nick + ' - ' +
+				message + '\n';
+	}
+
 })();
