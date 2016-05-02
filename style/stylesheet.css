@@ -3688,3 +3688,34 @@ body .login-user-down:hover {
     background: transparent !important;
 }
 
+
+.postForm input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.postForm input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.postForm input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.postForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
