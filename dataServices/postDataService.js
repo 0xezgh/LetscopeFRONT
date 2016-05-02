@@ -8,6 +8,7 @@
 	PostDataService.$inject = ['$resource']
 
 	function PostDataService($resource){
+
 		return $resource('http://localhost:3000/post/:operation/:id',{id: '@id'},
 			{   'get':            {method: 'GET', params: { id: '@id'}},
 				'update':    	  {method: 'PUT' , params: { id: '@id'}},
@@ -19,5 +20,16 @@
 			{
 				stripTrailingSlashes: false
 			});
+
+		return $resource('http://localhost:3000/post/:id/:idTag',{id: '@id',idTag: '@idTag'},
+				{   'get':            {method: 'GET', params: { id: '@id'}},
+					'update':    	  {method: 'PUT' , params: { id: '@id'}},
+					'list':    	  	  {method: 'GET' , isArray:true },
+					'listByTag':      {method: 'GET' , params: {idTag: '@idTag'}, isArray:true },
+					'save' : {method : 'POST'}
+				},
+				{
+					stripTrailingSlashes: false
+				});
 	}
 })();

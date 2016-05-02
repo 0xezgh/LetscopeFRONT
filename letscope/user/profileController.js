@@ -8,7 +8,7 @@
     ProfileController.$inject = ['UserService','Upload','$scope','$location','AuthenticatedUser','$rootScope'];
 
     function ProfileController(UserService,Upload,$scope,$location,AuthenticatedUser,$rootScope){
-        var id = '570b75733d1ab0700be75108';
+        var id = '57160cf4bde9495009799cff';
 
         /*if($location.path()=='/profile')
         {
@@ -266,6 +266,11 @@
             'Zimbabwe'
         ];
 
+        $scope.credentials = {
+            email : "",
+            password : ""
+        }
+
         $scope.profile = {
             image : "",
             fname : "",
@@ -302,69 +307,53 @@
                 $scope.profile.instagram = response.instagram;
                 $scope.profile.linkedin = response.linkedin;
                 $scope.profile.website = response.website;
+                $scope.profile.followers = response.followers;
                 }
             else{
                 $scope.msg = "Error while loading profile";
             }
         });
 
-        $scope.update = function(profile){
-            console.log(profile);
-            UserService.UpdateProfile(id,profile.fname,profile.lname,profile.occupation,profile.website,profile.country,profile.city,profile.aboutme,profile.myskills,profile.facebook,profile.twitter,profile.google,profile.pinterest,profile.instagram,profile.linkedin,function(response){
-                if (response.success)
-                {
-                    $scope.msg = "Successfully modified !";
-                }
-                else{
-                    $scope.msg = "Changes has not been applied !";
-                }
-            });
-        };
-
-        $scope.onFileSelect = function(image) {
-            $scope.uploadInProgress = true;
-            $scope.uploadProgress = 0;
-
-            if (angular.isArray(image)) {
-                image = image[0];
-            }
-
-            $scope.upload = Upload.upload({
-                url: 'http://localhost:3000/user/upload',
-                method: 'POST',
-                data: {
-                    type: 'profile'
-                },
-                file: image
-            }).progress(function(event) {
-                console.log("start uploading");
-                $scope.uploadProgress = Math.floor(event.loaded / event.total);
-                $scope.$apply();
-            }).success(function(data, status, headers, config) {
-               // AlertService.success('Photo uploaded!');
-                console.log('Photo uploaded !');
-            }).error(function(err) {
-                $scope.uploadInProgress = false;
-                //AlertService.error('Error uploading file: ' + err.message || err);
-                console.log('Error uploading file: ' + err.message || err);
-            });
+        $scope.uploadFile = function(file){
+            console.log(file);
+            Upload.upload({
+                url: 'http://localhost:3000/user/upload/'+id, //webAPI exposed to upload the file
+                data:{file:file} //pass file as data, should be user ng-model
+            }).then(function (resp) { //upload function returns a promise
+                    if(resp.data.error_code === 0){ //validate success
+                        console.log('Success uploaded. Response: ');
+                       // $scope.uploadImgSuccess = true;
+                    } else {
+                        console.log('an error occurred');
+                    }
+                }, function (resp) { //catch error
+                    console.log('Error status: ' + resp.err);
+                }, function (evt) {
+                    console.log(evt);
+                    var progressPercentage = parseInt(100.0 * evt.loaded / evt.total);
+                    console.log('progress: ' + progressPercentage + '% ' + evt.config.data.file.name);
+                    $scope.progress = 'progress: ' + progressPercentage + '% '; // capture upload progress
+                })
+                .finally(function(){
+                    Profile.getProfile($rootScope.loggedUser._id).$promise.then(function (user) {
+                        $rootScope.loggedUser=user;
+                        $localStorage.user = user;
+                    });
+                });
         };
 
         $scope.follow = function () {
             var followed = $location.path().split('/')[2];
             UserService.FollowUser(id, followed, function (response) {
                 if (response.success) {
-                    console.log("Successfully modified !");
-                    $scope.msg = "Successfully modified !";
+                    console.log("User followed !");
                 }
                 else {
-                    console.log("Snooo");
-                    $scope.msg = "Changes has not been applied !";
+                    console.log("Probème has occured! ");
                 }
             });
         }
     }
-
 })();
 
 

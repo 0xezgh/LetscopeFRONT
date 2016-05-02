@@ -8,19 +8,15 @@
     AuthDataService.$inject = ['$resource']
 
     function AuthDataService($resource){
-        var service = {};
-
-        service.Login = Login;
-        service.RegisterUser = RegisterUser;
-
-        return service;
-
-        function Login(){
-            return $resource('http://localhost:3000/auth/login');
-        }
-
-        function RegisterUser(){
-            return $resource('http://localhost:3000/auth/register');
-        }
+        return $resource('http://localhost:3000/auth/:operation/:id',{id: '@id'},
+            {   'login':          {method: 'POST', params: { operation: 'login'}},
+                'logout':         {method: 'POST', params: { operation: 'logout'}},
+                'register':    	  {method: 'POST', params: { operation: 'register'}},
+                'forget':		  {method: 'POST', params: { operation: 'forget'}},
+                'reset':		  {method: 'POST', params: { operation: 'reset'}}
+            },
+            {
+                stripTrailingSlashes: false
+            });
     }
 })();

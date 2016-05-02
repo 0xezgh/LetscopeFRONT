@@ -2,12 +2,14 @@
 	'user strict';
 	
 	angular
+
 		.module('letscope',['ngRoute','ngResource','ngFileUpload','ngMap'])
+		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match'])
         .value('AuthenticatedUser',{})
 		.config(config)
         .run(function($rootScope, $location) {
 	    $rootScope.$on("$routeChangeStart", function(event, next, current) {
-	    	/*if ($rootScope.AuthenticatedUser== null) {
+	    	if ($rootScope.AuthenticatedUser== null) {
 	    	
 	        // no logged user, redirect to /login
 	        if ( next.templateUrl === "login/login.html") {
@@ -15,7 +17,7 @@
 	        else {
 	          $location.path("/");
 	        }
-	      } */
+	      }
 	    });
 	  });
     
@@ -28,16 +30,28 @@
 			 	controller:'LoginController',
                 templateUrl:'letscope/login/login.html'
 		})
+				.when('/forget',{
+					controller:'LoginController',
+					templateUrl:'letscope/login/forget.html'
+				})
+				.when('/reset/:token',{
+					controller:'LoginController',
+					templateUrl:'letscope/login/reset.html'
+				})
             .when('/activity',{
 				controller:'PostController',
 				templateUrl:'post/activity.html'
 		})
-            .when('/tag',{
+            .when('/tags',{
 				controller:'tagController',
 				templateUrl:'tags.html'
 		})
-            .when('/tag/:name',{
-				controller:'tagController',
+            .when('/tag/:idTag',{
+				controller:'tag2Controller',
+				templateUrl:'tag.html'
+		})
+		    .when('/tag2/:name',{
+				controller:'postandtagController',
 				templateUrl:'tag.html'
 		})
 				.when('/profile',{

@@ -27,7 +27,7 @@
 
 				</div>
 				<div class="col-xs-12 col-md-9 _editor-content_">
-					<form name="updateImageForm" ng-submit="onFileSelect($files)" role="form">
+					<form ng-submit="uploadFile(file)">
 						<div class="be-large-post">
 							<div class="info-block style-2">
 								<div class="be-large-post-align "><h3 class="info-block-label">Profile Image</h3></div>
@@ -37,7 +37,8 @@
 									<a class="be-ava-user style-2" href="blog-detail-2.html">
 										<img src="/img/a1.png" alt="">
 									</a>
-										<input class="btn color-4 size-2" type="file" value="Replace image" ng-file-select="onFileSelect($files)">
+									<input class="btn color-4 size-2" type="file" value="Replace image" ngf-select ng-model="file"
+										   name="file" ngf-pattern="'image/*'" accept="image/*" ngf-max-size="20MB" type="file">
 								</div>
 								<div class="col-xs-12">
 									<input type="submit" class="btn color-1 size-2 hover-1 btn-right" value="UPDATE IMAGE">

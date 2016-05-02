@@ -3,174 +3,43 @@
 
     <!-- MAIN CONTENT -->
 	<div id="content-block">
+	
 		<div class="container be-detail-container">
-			<h2 class="content-title">Graphic</h2>
+			<h2 class="content-title" ></h2>
 			<div class="blog-wrapper blog-grid">
+			<div class="pages" ng-hide="show">
+			<a class="btn color-1" style="margin-left: 400px; height:50px; text-align: center;" href="#/tags/">No posts available for this Tag,Go back to the Tags' list</a>
+							
+			</div>
+			
 				<div class="row">
-					<div class="grid-item col-xs-12 col-sm-6 col-md-4">
+					<div class="grid-item col-xs-12 col-sm-6 col-md-4" ng-repeat="p in posts">
 						<div class="blog-post">
 							<div class="post-header clearfix">
 								<div class="post-date">
 									<i class="fa fa-clock-o"></i> April 23, 2015
 								</div>
-								<div class="author-post">
-									<img src="img/a1.png" alt="" class="ava-author">
-									<span>by<a href="#/profile">Hoang Nguyen</a></span>
-								</div>
+							
 							</div>						
-							<a class="post-preview post-image" href="#/post/pic"><img class="img-responsive img-full" src="img/blog_grid_1.jpg" alt=""></a>
+							<a class="post-preview post-image" href="#/post/pic"></a>
 							<div class="post-desc">
-								<div class="post-category">Interaction Design, UI/UX, Web Design</div>
-								<a class="post-label" href="#/post/pic">Fusce dolor libero</a>
-								<div class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non efficitur velit. Duis semper eros id tempor facilisis. Suspendisse molestie nunc at massa iaculis, at iaculis dolor blandit. Pellentesque non pulvinar dolor</div>
-								<a class="btn color-1 size-2 hover-1" href="#/post/pic">Read more</a>
-								<div class="info-block">
-									<span><i class="fa fa-thumbs-o-up"></i> 360</span>
-									<span><i class="fa fa-eye"></i> 789</span>
-									<span><i class="fa fa-comment-o"></i> 20</span>
-								</div>																
+								<div class="post-category">{{p.description.shortDesc}}</div>
+								<a class="post-label" href="#/post/pic">{{p.description.longDesc}}</a>
+								
+								
+																							
 							</div>
 						</div>					
 					</div>
-					<div class="grid-item col-xs-12 col-sm-6 col-md-4">
-						<div class="blog-post">
-							<div class="post-header clearfix">
-								<div class="post-date">
-									<i class="fa fa-clock-o"></i> April 23, 2015
-								</div>
-								<div class="author-post">
-									<img src="img/a1.png" alt="" class="ava-author">
-									<span>by <a href="#/profile">Hoang Nguyen</a></span>
-								</div>
-							</div>
-							<a class="post-preview post-image play" href="#/post/video"><img class="img-responsive img-full" src="img/blog_grid_2.jpg" alt=""></a>
-							<div class="post-desc">
-								<div class="post-category">Vector, Art</div>
-								<a class="post-label" href="#/post/video">Monkey in da Space</a>
-								<div class="post-text">Morbi efficitur feugiat erat a efficitur. Donec interdum, nunc ac elementum auctor, dui nisl placerat odio, eget sagittis sem neque venenatis libero</div>
-								<a class="btn color-1 size-2 hover-1" href="#/post/video">Read more</a>
-								<div class="info-block">
-									<span><i class="fa fa-thumbs-o-up"></i> 360</span>
-									<span><i class="fa fa-eye"></i> 789</span>
-									<span><i class="fa fa-comment-o"></i> 20</span>
-								</div>																
-							</div>
-						</div>					
-					</div>
-					<div class="grid-item col-xs-12 col-sm-6 col-md-4">
-						<div class="blog-post">
-							<div class="post-header clearfix">
-								<div class="post-date">
-									<i class="fa fa-clock-o"></i> April 23, 2015
-								</div>
-								<div class="author-post">
-									<img src="img/a1.png" alt="" class="ava-author">
-									<span>by <a href="#/profile">Hoang Nguyen</a></span>
-								</div>
-							</div>						
-							<a class="post-preview post-image" href="#/post/pic"><img class="img-responsive img-full" src="img/blog_grid_3.jpg" alt=""></a>
-							<div class="post-desc">
-								<div class="post-category">Kids, Vector, Drawing</div>
-								<a class="post-label" href="#/post/pic">Vector for kids</a>
-								<div class="post-text">Duis ornare rutrum consectetur. Proin tincidunt a ex blandit cursus. Suspendisse ultricies erat sit amet orci scelerisque, nec sagittis libero iaculis. Curabitur a nulla ut velit imperdiet Vilacinia, ut sollicitudin nisl accumsan.</div>
-								<a class="btn color-1 size-2 hover-1" href="#/post/pic">Read more</a>
-								<div class="info-block">
-									<span><i class="fa fa-thumbs-o-up"></i> 360</span>
-									<span><i class="fa fa-eye"></i> 789</span>
-									<span><i class="fa fa-comment-o"></i> 20</span>
-								</div>																
-							</div>
-						</div>						
-					</div>                                           
-                    <div class="grid-item col-xs-12 col-sm-6 col-md-4">
-						<div class="blog-post">
-							<div class="post-header clearfix">
-								<div class="post-date">
-									<i class="fa fa-clock-o"></i> April 23, 2015
-								</div>
-								<div class="author-post">
-									<img src="img/a1.png" alt="" class="ava-author">
-									<span>by <a href="#/post/video">Hoang Nguyen</a></span>
-								</div>
-							</div>						
-							<a class="post-preview post-image play" href="#/post/video"><img class="img-responsive img-full" src="img/blog_grid_7.jpg" alt=""></a>
-							<div class="post-desc">
-								<div class="post-category">Video, Street</div>
-								<a class="post-label" href="#/profile">Street atr in London</a>
-								<div class="post-text">Ut tempor, nulla at consectetur iaculis, nunc lorem tincidunt enim, quis commodo neque eros quis lacus. Nam vel ipsum consequat, dapibus ipsum ac, consectetur massa. Vestibulum molestie odio</div>
-								<a class="btn color-1 size-2 hover-1" href="#/post/video">Read more</a>
-								<div class="info-block">
-									<span><i class="fa fa-thumbs-o-up"></i> 360</span>
-									<span><i class="fa fa-eye"></i> 789</span>
-									<span><i class="fa fa-comment-o"></i> 20</span>
-								</div>																
-							</div>
-						</div>						
-					</div>
-					<div class="grid-item col-xs-12 col-sm-6 col-md-4">
-						<div class="blog-post">
-							<div class="post-header clearfix">
-								<div class="post-date">
-									<i class="fa fa-clock-o"></i> April 23, 2015
-								</div>
-								<div class="author-post">
-									<img src="img/a1.png" alt="" class="ava-author">
-									<span>by <a href="#/profile">Hoang Nguyen</a></span>
-								</div>
-							</div>						
-							<a class="post-preview post-image" href="#/post/pic"><img class="img-responsive img-full" src="img/blog_grid_8.jpg" alt=""></a>
-							<div class="post-desc">
-								<div class="post-category">Vector, Art, Kids</div>
-								<a class="post-label" href="#/post/pic">Ideas for life</a>
-								<div class="post-text">Rum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla nulla neque, pulvinar nec iaculis tempor, iaculis non lorem. Mauris sit amet pharetra nibh. Donec dui magna</div>
-								<a class="btn color-1 size-2 hover-1" href="#/post/pic">Read more</a>
-								<div class="info-block">
-									<span><i class="fa fa-thumbs-o-up"></i> 360</span>
-									<span><i class="fa fa-eye"></i> 789</span>
-									<span><i class="fa fa-comment-o"></i> 20</span>
-								</div>																
-							</div>
-						</div>						
-					</div>
-					<div class="grid-item col-xs-12 col-sm-6 col-md-4">
-						<div class="blog-post">
-							<div class="post-header clearfix">
-								<div class="post-date">
-									<i class="fa fa-clock-o"></i> April 23, 2015
-								</div>
-								<div class="author-post">
-									<img src="img/a1.png" alt="" class="ava-author">
-									<span>by <a href="#/profile">Hoang Nguyen</a></span>
-								</div>
-							</div>						
-							<a class="post-preview post-image" href="#/post/pic"><img class="img-responsive img-full" src="img/blog_grid_9.jpg" alt=""></a>
-							<div class="post-desc">
-								<div class="post-category">Kids, Vector, Drawing</div>
-								<a class="post-label" href="#/post/pic">Woman</a>
-								<div class="post-text">Vivamus pellentesque justo a urna tincidunt sagittis eget quis nunc. Curabitur nec est non tortor rutrum consequat ac vel neque. Nunc finibus vestibulum ex, sit amet posuere nisi ornare quis.</div>
-								<a class="btn color-1 size-2 hover-1" href="#/post/pic">Read more</a>
-								<div class="info-block">
-									<span><i class="fa fa-thumbs-o-up"></i> 360</span>
-									<span><i class="fa fa-eye"></i> 789</span>
-									<span><i class="fa fa-comment-o"></i> 20</span>
-								</div>																
-							</div>
-						</div>						
-					</div>																																			
-				</div>
-                <div class="pagination clearfix">
-							<a class="btn color-4 hover-9 page-left" href="#">prev page</a>
-							<a class="btn color-4 hover-9 page-right" href="#">next page</a>					
-							<div class="pages">
-								<a class="btn color-5 hover-9" href="">1</a>
-								<a class="btn color-5 hover-9" href="">2</a>
-								<a class="btn color-5 hover-9" href="">3</a>
-								<a class="btn color-5 hover-9" href="">4</a>
-								<a class="btn color-5 hover-9" href="">...</a>
-								<a class="btn color-5 hover-9" href="">10</a>
-							</div>
+					
+					
+	
+                                           
 
+
+																																			
 				</div>
+
 			</div>
 		</div>
 	</div>
