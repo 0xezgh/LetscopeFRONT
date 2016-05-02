@@ -7,7 +7,7 @@
 		.config(config)
         .run(function($rootScope, $location) {
 	    $rootScope.$on("$routeChangeStart", function(event, next, current) {
-	    	if ($rootScope.AuthenticatedUser== null) {
+	    /*	if ($rootScope.AuthenticatedUser== null) {
 	    	
 	        // no logged user, redirect to /login
 	        if ( next.templateUrl === "login/login.html") {
@@ -15,7 +15,7 @@
 	        else {
 	          $location.path("/");
 	        }
-	      }
+	      }*/
 	    });
 	  });
     
@@ -42,15 +42,15 @@
 		})
             .when('/tags',{
 				controller:'tagController',
-				templateUrl:'tags.html'
+				templateUrl:'letscope/tag/tags.html'
 		})
             .when('/tag/:idTag',{
 				controller:'tag2Controller',
-				templateUrl:'tag.html'
+				templateUrl:'letscope/tag/tag.html'
 		})
 		    .when('/tag2/:name',{
 				controller:'postandtagController',
-				templateUrl:'tag.html'
+				templateUrl:'letscope/tag/tag.html'
 		})
 				.when('/profile',{
 				controller:'ProfileController',
@@ -87,7 +87,7 @@
 				templateUrl:'search.html'
 		})
             .when('/people',{
-				templateUrl:'people.html'
+				templateUrl:'letscope/user/people.html'
 		})
             .when('/messages',{
 				templateUrl:'messages.html'
