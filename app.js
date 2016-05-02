@@ -3,8 +3,8 @@
 	
 	angular
 
-		.module('letscope',['ngRoute','ngResource','ngFileUpload','ngMap'])
-		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match'])
+		
+		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match','ngMap'])
         .value('AuthenticatedUser',{})
 		.config(config)
         .run(function($rootScope, $location) {
