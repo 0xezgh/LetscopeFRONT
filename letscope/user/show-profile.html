@@ -9,7 +9,7 @@
 					<div class="be-user-block style-3">
 						<div class="be-user-detail">
 							<a class="be-ava-user style-2">
-								<img ng-src="img/ava_10.jpg"" alt="Profile image">
+								<img ng-src="http://localhost:3000/user/download/{{profile.image}}" alt="Profile image">
 							</a>
 							<a class="be-ava-left btn color-1 size-2 hover-1" href="#/profile/edit">
                                 <i class="fa fa-pencil"></i>Edit</a>
@@ -31,18 +31,17 @@
 							</div>
 							<div class="be-user-social">
 								<a ng-hide="profile.facebook == ''" class="social-btn color-1" href="http://{{profile.facebook}}"><i ng-hide="profile.facebook == ''" class="fa fa-facebook"></i></a>
-								<a ng-hide="profile.twitter == ''" class="social-btn color-2" href="{{profile.twitter}}"><i ng-hide="profile.twitter == ''" class="fa fa-twitter"></i></a>
-								<a ng-hide="profile.google == ''" class="social-btn color-3" href="{{profile.google}}"><i ng-hide="profile.google == ''" class="fa fa-google-plus"></i></a>
-								<a ng-hide="profile.pinterest == ''" class="social-btn color-4" href="{{profile.pinterest}}"><i ng-hide="profile.pinterest == ''" class="fa fa-pinterest-p"></i></a>
-								<a ng-hide="profile.instagram == ''" class="social-btn color-5" href="{{profile.instagram}}l"><i ng-hide="profile.instagram == ''" class="fa fa-instagram"></i></a>
-								<a ng-hide="profile.linkedin == ''" class="social-btn color-6" href="{{profile.linkedin}}"><i ng-hide="profile.linkedin == ''" class="fa fa-linkedin"></i></a>
+								<a ng-hide="profile.twitter == ''" class="social-btn color-2" href="http://{{profile.twitter}}"><i ng-hide="profile.twitter == ''" class="fa fa-twitter"></i></a>
+								<a ng-hide="profile.google == ''" class="social-btn color-3" href="http://{{profile.google}}"><i ng-hide="profile.google == ''" class="fa fa-google-plus"></i></a>
+								<a ng-hide="profile.pinterest == ''" class="social-btn color-4" href="http://{{profile.pinterest}}"><i ng-hide="profile.pinterest == ''" class="fa fa-pinterest-p"></i></a>
+								<a ng-hide="profile.instagram == ''" class="social-btn color-5" href="http://{{profile.instagram}}l"><i ng-hide="profile.instagram == ''" class="fa fa-instagram"></i></a>
+								<a ng-hide="profile.linkedin == ''" class="social-btn color-6" href="http://{{profile.linkedin}}"><i ng-hide="profile.linkedin == ''" class="fa fa-linkedin"></i></a>
 							</div>
-							<a ng-hide="profile.website == ''" class="be-user-site" href="{{profile.website}}"><i ng-hide="profile.website == null" class="fa fa-link"></i> {{profile.website}}</a>
+							<a ng-hide="profile.website == ''" class="be-user-site" href="http://{{profile.website}}"><i ng-hide="profile.website == null" class="fa fa-link"></i> {{profile.website}}</a>
 						</div>
 						<div class="be-user-statistic">
 							<div class="stat-row clearfix"><i class="stat-icon icon-like-b"></i>Appreciations<span class="stat-counter">14335</span></div>
 							<div class="stat-row clearfix"><i class="stat-icon icon-followers-b"></i>Followers<span class="stat-counter">{{profile.followers}}</span></div>
-							<div class="stat-row clearfix"><i class="stat-icon icon-following-b"></i>Following<span class="stat-counter">0</span></div>
 						</div>
 					</div>
 					<div ng-hide="profile.aboutme == ''" class="be-desc-block">

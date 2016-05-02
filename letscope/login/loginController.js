@@ -5,9 +5,9 @@
 			.module('letscope')
 			.controller('LoginController',LoginController);
 	
-	LoginController.$inject = ['LoginService','$scope','$location','AuthenticatedUser','$rootScope'];
+	LoginController.$inject = ['LoginService','$scope','$location','$rootScope'];
 	
-	function LoginController(LoginService,$scope,$location,AuthenticatedUser,$rootScope){
+	function LoginController(LoginService,$scope,$location,$rootScope){
 		var days = [];
 		var years = [];
 		for (var i=1; i<32; i++)
@@ -294,20 +294,21 @@
 			newsletter: true
 		};
 
-		$scope.errorMsg = '';
+		$scope.msg = '';
 
 		$scope.register = function(newUser){
 			var date = newUser.birthdate.day + "-" + newUser.birthdate.month.nbr + "-" + newUser.birthdate.year;
-
+			console.log(date);
 			LoginService.Register(newUser.fname,newUser.lname,newUser.username,newUser.email,newUser.country.name,date,newUser.newsletter,newUser.password,function(response){
 				if(response.success){
-					$rootScope.AuthenticatedUser = {email : response.email, username : response.username, id : response.id};
-					console.log($rootScope.AuthenticatedUser);
-					$location.path("/#/activity/");
+					$rootScope.AuthenticatedUser = {
+						id : response.id,
+						name : response.name
+					};
+					$location.path("/activity/");
 				}else{
-					$scope.errorMsg = response.message;
+					$scope.msg = response.message;
 					console.log(response.message);
-
 					$scope.newUser = {
 						fname: '',
 						lname: '',
@@ -328,8 +329,6 @@
 						id : response.id,
 						name : response.name
 					};
-					console.log(response.message);
-					console.log($rootScope.AuthenticatedUser);
 					$location.path("/activity/");
 
 				}else{
