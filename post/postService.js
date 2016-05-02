@@ -12,25 +12,29 @@
 
         service.AddWork = AddWork;
         service.GetPosts = GetPosts;
+		service.GetPostsFinished = GetPostsFinished;
         service.UpdatePost = UpdatePost;
+        service.GetOnePost = GetOnePost;
+		
 
         return service;
 
-        function AddWork(title,longDesc,shortDesc,txtContent,imgContent,callback){
+        function AddWork(title,longDesc,shortDesc,work_status,callback){
             var response;
             
 			PostDataService.save({
                title:title,
 			   longDesc :longDesc ,
 			   shortDesc : shortDesc,
-			   txtContent :txtContent ,
-			   imgContent:imgContent
+			   work_status:work_status,
+
             },function(post){
                 if(post.error == null)
                 {
                     console.log(post);
                     response = {
-                        success:true
+                        success:true,
+                        post:post
                     };
                 }else
                 {
@@ -40,13 +44,37 @@
             });
         }
 		
+        function GetOnePost(id,callback){
+            var response;
+            PostDataService.get({
+			id:id
+            },function(post){
+                if(post.error == null)
+                {
+                    console.log(post);
+                    response = {success : true,
+								id : post._id,
+								title : post.title,
+								longDesc : post.description.longDesc,
+								shortDesc : post.description.shortDesc,
+								imgContent : post.imgContent
+
+					};
+                }
+                else{
+                    console.log("!Done");
+                    response = {success : false};
+                }
+                callback(response);
+            });
+        }
 		
         function GetPosts(id,callback){
             var response;
             
             PostDataService.list({
 			
-                
+          
                
             },function(posts){
                 if(posts.error == null)
@@ -64,14 +92,33 @@
             });
         }
 		
-		
-		
-	function UpdatePost(id,title,shortDesc,callback){
+        function GetPostsFinished(callback){
+            var response;
+
+            PostDataService.finished({},function(posts){
+                if(posts.error == null)
+                {
+                    console.log(posts);
+                    response = {success : true,
+								posts : posts
+					};
+                }
+                else{
+                    console.log("!Done");
+                    response = {success : false};
+                }
+                callback(response);
+            });
+        }
+
+        function UpdatePost(id,title,shortDesc,longDesc,work_status,callback){
             var response;
             PostDataService.update({
                 id : id,
                 title : title,
-				shortDesc : shortDesc
+				shortDesc : shortDesc,
+                longDesc : longDesc,
+                work_status : work_status
             },function(post){
                 if(post.error == null)
                 {

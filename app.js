@@ -2,7 +2,7 @@
 	'user strict';
 	
 	angular
-		.module('letscope',['ngRoute','ngResource','ngFileUpload'])
+		.module('letscope',['ngRoute','ngResource','ngFileUpload','ngMap'])
         .value('AuthenticatedUser',{})
 		.config(config)
         .run(function($rootScope, $location) {
@@ -65,8 +65,10 @@
                 templateUrl:'post/workEdit.html'
 				})
 		
-            .when('/post/pic',{
-				templateUrl:'post-pic.html'
+            .when('/post/pic/:id',{
+				controller:'PostController',
+				templateUrl:'post/post-pic.html'
+				
 		})
             .when('/post/video',{
 				templateUrl:'post-video.html'
