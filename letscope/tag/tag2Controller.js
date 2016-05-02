@@ -11,21 +11,32 @@
 
 	var aux = $location.path();
 	var idTag = (aux.split('/')[2]);
+	$scope.show= true;
 	
-	PostService.GetPostsByTag(idTag, function (response) {
+	
+
+	
+	
+	PostService.GetPostsByTag(idTag, function (res) {
 		
 		
 		
-            if(response.success){
-			   console.log(response);
-               $scope.posts=response.posts;
+            if(res.success){
+			   console.log(res);
+               $scope.posts=res.posts;
+			   console.log($scope.posts);
             }
             else{
                 $scope.msg = "No tags available";
             }
+			
+			if ($scope.posts.length==0)
+			{$scope.show=false;}
+			console.log($scope.show);
+    
         });
 
-
+	
 
 
 

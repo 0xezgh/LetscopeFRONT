@@ -7,6 +7,11 @@
 		<div class="container be-detail-container">
 			<h2 class="content-title" ></h2>
 			<div class="blog-wrapper blog-grid">
+			<div class="pages" ng-hide="show">
+			<a class="btn color-1" style="margin-left: 400px; height:50px; text-align: center;" href="#/tags/">No posts available for this Tag,Go back to the Tags' list</a>
+							
+			</div>
+			
 				<div class="row">
 					<div class="grid-item col-xs-12 col-sm-6 col-md-4" ng-repeat="p in posts">
 						<div class="blog-post">
@@ -34,15 +39,7 @@
 
 																																			
 				</div>
-                <div class="pagination clearfix">
-							<a class="btn color-4 hover-9 page-left" href="#">prev page</a>
-							<a class="btn color-4 hover-9 page-right" href="#">next page</a>					
-							<div class="pages">
-								<a class="btn color-5 hover-9" href="">1</a>
-							
-							</div>
 
-				</div>
 			</div>
 		</div>
 	</div>
