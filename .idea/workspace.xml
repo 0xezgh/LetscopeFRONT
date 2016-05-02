@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="d92a86d1-11db-4723-a5c1-a0301f4aa59d" name="Default" comment="" />
+=======
     <list default="true" id="d92a86d1-11db-4723-a5c1-a0301f4aa59d" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/dist/WebSocketMain.swf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/dist/WebSocketMainInsecure.swf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/WebSocketMain.swf" />
@@ -198,6 +202,22 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/worker.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/notificationSocketService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" />
+=======
+<<<<<<< HEAD
+      <change type="DELETED" beforePath="$PROJECT_DIR$/post-pic.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataServices/postDataService.js" afterPath="$PROJECT_DIR$/dataServices/postDataService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post-video.html" afterPath="$PROJECT_DIR$/post-video.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post/activity.html" afterPath="$PROJECT_DIR$/post/activity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post/postController.js" afterPath="$PROJECT_DIR$/post/postController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post/postService.js" afterPath="$PROJECT_DIR$/post/postService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post/work.html" afterPath="$PROJECT_DIR$/post/work.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post/workEdit.html" afterPath="$PROJECT_DIR$/post/workEdit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/stylesheet.css" afterPath="$PROJECT_DIR$/style/stylesheet.css" />
+=======
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular/.bower.json" />
@@ -213,13 +233,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/user/edit-profile.html" afterPath="$PROJECT_DIR$/letscope/user/edit-profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/user/profile.html" afterPath="$PROJECT_DIR$/letscope/user/profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/user/profileController.js" afterPath="$PROJECT_DIR$/letscope/user/profileController.js" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/user/show-profile.html" afterPath="$PROJECT_DIR$/letscope/user/show-profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/user/userService.js" afterPath="$PROJECT_DIR$/letscope/user/userService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/chat.js" afterPath="$PROJECT_DIR$/script/chat.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/header.html" afterPath="$PROJECT_DIR$/shared/header.html" />
+=======
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
     </list>
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
     <ignored path="letscope.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -237,9 +263,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="loginController.js" pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="postService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post/postService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+              <folding>
+                <element signature="e#1896#2421#0" expanded="false" />
+                <element signature="e#2468#2941#0" expanded="false" />
+                <element signature="e#3020#3635#0" expanded="false" />
+=======
       <file leaf-file-name="loginController.js" pinned="false" current-in-tab="true">
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
         <entry file="file://$PROJECT_DIR$/letscope/login/loginController.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.6633663">
               <caret line="298" column="43" selection-start-line="298" selection-start-column="43" selection-end-line="298" selection-end-column="43" />
               <folding>
@@ -251,17 +293,119 @@
                 <element signature="e#11397#11824#0" expanded="false" />
                 <element signature="e#11860#12127#0" expanded="false" />
                 <element signature="e#12164#12528#0" expanded="false" />
+=======
+            <state vertical-scroll-proportion="0.0">
+              <caret line="328" column="44" selection-start-line="328" selection-start-column="44" selection-end-line="328" selection-end-column="44" />
+              <folding>
+                <element signature="e#456#494#0" expanded="false" />
+                <element signature="e#513#10477#0" expanded="false" />
+                <element signature="e#977#10473#0" expanded="false" />
+                <element signature="e#10682#11447#0" expanded="false" />
+                <element signature="e#12035#12302#0" expanded="false" />
+                <element signature="e#12339#12703#0" expanded="false" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="postDataService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataServices/postDataService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tagsfinal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letscope/tag/tagsfinal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tags.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letscope/tag/tags.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tag2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letscope/tag/tag2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tag.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letscope/tag/tag.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tagDataService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataServices/tagDataService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="people.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/letscope/user/people.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="postController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post/postController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+              <folding>
+                <element signature="e#966#1345#0" expanded="false" />
+                <element signature="e#1381#1663#0" expanded="false" />
+                <element signature="e#1699#2127#0" expanded="false" />
+=======
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+      <file leaf-file-name="loginService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letscope/login/loginService.js">
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
+<<<<<<< HEAD
                 <element signature="e#714#2533#0" expanded="false" />
               </folding>
             </state>
@@ -276,21 +420,45 @@
               <folding>
                 <element signature="e#2070#3086#0" expanded="false" />
                 <element signature="e#3132#3577#0" expanded="false" />
+=======
+                <element signature="e#591#1107#0" expanded="false" />
+                <element signature="e#1139#1160#0" expanded="false" />
+                <element signature="e#1189#1260#0" expanded="false" />
+                <element signature="e#1714#1992#0" expanded="false" />
+                <element signature="e#2036#2306#0" expanded="false" />
+                <element signature="e#2359#2639#0" expanded="false" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit-profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/letscope/user/edit-profile.html">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hotelProject/login.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-15.692307">
               <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+=======
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="47" selection-end-column="27" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="47" selection-end-column="27" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="profileController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letscope/user/profileController.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -312,31 +480,61 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post/work.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="15" selection-end-column="26" />
+=======
+      <file leaf-file-name="authDataService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataServices/authDataService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="notificationSocketService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/notificationSocketService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="9" column="36" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="36" />
+=======
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="495">
+              <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/letscope/login/login.html">
+      <file leaf-file-name="post-pic.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/post/post-pic.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0">
               <caret line="66" column="92" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="92" />
+=======
+            <state relative-caret-position="362">
+              <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="forget.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letscope/login/forget.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -345,20 +543,44 @@
               <folding>
                 <element signature="n#div#0;n#!!top" expanded="false" />
               </folding>
+=======
+      <file leaf-file-name="workEdit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post/workEdit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="97" />
+=======
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="43" column="88" selection-start-line="43" selection-start-column="88" selection-end-line="43" selection-end-column="88" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+              <folding />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letscope/user/profile.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="postDataService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataServices/postDataService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -397,10 +619,22 @@
         <option value="$PROJECT_DIR$/letscope/login/reset.html" />
         <option value="$PROJECT_DIR$/dataServices/authDataService.js" />
         <option value="$PROJECT_DIR$/letscope/login/login.html" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/app.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/dataServices/postDataService.js" />
+        <option value="$PROJECT_DIR$/post/work.html" />
+        <option value="$PROJECT_DIR$/post/workEdit.html" />
+        <option value="$PROJECT_DIR$/post/postService.js" />
+        <option value="$PROJECT_DIR$/post/postController.js" />
+=======
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         <option value="$PROJECT_DIR$/letscope/login/loginService.js" />
         <option value="$PROJECT_DIR$/letscope/user/edit-profile.html" />
         <option value="$PROJECT_DIR$/script/chat.js" />
         <option value="$PROJECT_DIR$/shared/header.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/services/notificationSocketService.js" />
         <option value="$PROJECT_DIR$/letscope/login/forget.html" />
         <option value="$PROJECT_DIR$/app.js" />
@@ -410,6 +644,14 @@
         <option value="$PROJECT_DIR$/letscope/user/profileController.js" />
         <option value="$PROJECT_DIR$/letscope/user/userService.js" />
         <option value="$PROJECT_DIR$/letscope/login/loginController.js" />
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/dataServices/postDataService.js" />
+        <option value="$PROJECT_DIR$/letscope/user/people.html" />
+=======
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
       </list>
     </option>
   </component>
@@ -418,11 +660,21 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
+=======
+    <option name="x" value="-7" />
+    <option name="width" value="1370" />
+    <option name="height" value="735" />
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -449,8 +701,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
       <pane id="Scratches" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -465,8 +726,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="letscope" />
+              <option name="myItemId" value="letscopefront" />
+<<<<<<< HEAD
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+=======
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -475,7 +740,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="letscopefront" />
+=======
+<<<<<<< HEAD
+              <option name="myItemId" value="letscopefront" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+=======
               <option name="myItemId" value="letscope" />
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -503,7 +776,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="letscope" />
+              <option name="myItemId" value="letscopefront" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -511,7 +784,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="user" />
+=======
+              <option name="myItemId" value="tag" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,7 +798,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="letscope" />
+              <option name="myItemId" value="letscopefront" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -535,24 +812,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="letscope" />
+              <option name="myItemId" value="letscopefront" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="letscope" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="login" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+=======
+              <option name="myItemId" value="post" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+<<<<<<< HEAD
+      <pane id="Scratches" />
+=======
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/letscope/user" />
+=======
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="D:/PiWeb/letscopejs" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -562,36 +866,30 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\letscopefront\letscope\user" />
+      <recent name="C:\wamp\www\letscopefront\dataServices" />
+      <recent name="C:\wamp\www\letscopefront\letscope\tag" />
       <recent name="C:\wamp2\www\letscope\post" />
       <recent name="C:\wamp2\www\letscope\letscope" />
-      <recent name="C:\wamp2\www\letscope\user" />
-      <recent name="C:\wamp\www\letscope\profile" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -602,23 +900,14 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -627,17 +916,43 @@
       <changelist id="d92a86d1-11db-4723-a5c1-a0301f4aa59d" name="Default" comment="" />
       <created>1458248086698</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1458248086698</updated>
+      <workItem from="1462045424661" duration="2657000" />
+      <workItem from="1462204739663" duration="8683000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11340000" />
+  </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
+=======
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21071953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19128509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21083455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -652,6 +967,25 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19128509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -671,167 +1005,255 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/bootstrap-3.3.6-dist/js/bootstrap.min.js">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://D:/Mes études/Esprit/4 TWIN 2/1er semestre/EasyErp/EasyErp_AngularJS/EasyErpApp/InventoryResource/BuyerService.js" />
+    <entry file="file://$PROJECT_DIR$/../EasyErp_AngularJS/app.js" />
+=======
+    <entry file="file://$PROJECT_DIR$/dataServices/userDataService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/letscope/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letscope/login/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letscope/login/loginService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataServices/userDataService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Mes études/Esprit/4 TWIN 2/1er semestre/EasyErp/EasyErp_AngularJS/EasyErpApp/InventoryResource/BuyerService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EasyErp_AngularJS/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5049505">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+    <entry file="file://$PROJECT_DIR$/fade.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
+    <entry file="file://$PROJECT_DIR$/lib/bootstrap-3.3.6-dist/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/jquery-2.0.3/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bootstrap-3.1.1/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034274194">
+        <state relative-caret-position="0">
           <caret line="1" column="14" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.332696">
+        <state relative-caret-position="0">
           <caret line="850" column="17" selection-start-line="850" selection-start-column="16" selection-end-line="850" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/js/alert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4210526">
+        <state relative-caret-position="0">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/metisMenu/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.333333">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/morrisjs/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7777777">
+        <state relative-caret-position="0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/js/popover.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/js/dropdown.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/js/collapse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/js/affix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5990099">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8169258">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/holderjs/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.20552677">
+        <state relative-caret-position="0">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-social/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5380435">
+        <state relative-caret-position="0">
           <caret line="49" column="25" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/holderjs/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/mocha/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11744387">
+        <state relative-caret-position="0">
           <caret line="4" column="58" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/messages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0293103">
+        <state relative-caret-position="0">
           <caret line="214" column="14" selection-start-line="214" selection-start-column="14" selection-end-line="214" selection-end-column="14" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/people.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+    <entry file="file://$PROJECT_DIR$/maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
     <entry file="file://$PROJECT_DIR$/style/loader.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.108986616">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.108986616">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.544933">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/directive/pw-check.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14026402">
+        <state relative-caret-position="0">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/../EasyErp_AngularJS/dataServices/userService.js" />
+    <entry file="file://$PROJECT_DIR$/shared/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="221" column="66" selection-start-line="221" selection-start-column="66" selection-end-line="221" selection-end-column="66" />
+=======
     <entry file="file://$PROJECT_DIR$/../EasyErp_AngularJS/dataServices/userService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -839,17 +1261,28 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/angular-file-upload/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+=======
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="50" column="141" selection-start-line="50" selection-start-column="137" selection-end-line="50" selection-end-column="141" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         </state>
       </provider>
     </entry>
@@ -876,15 +1309,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/colors.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="13" column="91" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
+=======
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/moment.min.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+=======
+        <state vertical-scroll-proportion="-20.923077">
+          <caret line="32" column="64" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="64" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         </state>
       </provider>
     </entry>
@@ -918,6 +1366,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/chat.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity.html" />
+    <entry file="file://$PROJECT_DIR$/letscope/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="62" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="62" />
+=======
         <state vertical-scroll-proportion="0.30858085">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
@@ -939,22 +1399,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/post/activity.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.73275864">
+          <caret line="25" column="88" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="88" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shared/header.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-0.15454546">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="476">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+=======
+        <state vertical-scroll-proportion="2.290429">
+          <caret line="330" column="14" selection-start-line="330" selection-start-column="14" selection-end-line="330" selection-end-column="14" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/letscope/login/forget.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="159" column="7" selection-start-line="159" selection-start-column="7" selection-end-line="159" selection-end-column="7" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="663">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="283" selection-end-column="13" />
+=======
+        <state vertical-scroll-proportion="0.47241378">
+          <caret line="256" column="9" selection-start-line="256" selection-start-column="9" selection-end-line="256" selection-end-column="9" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
           </folding>
@@ -963,16 +1452,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <element signature="e#714#2533#0" expanded="false" />
           </folding>
+=======
+        <state vertical-scroll-proportion="0.7293729">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/letscope/user/show-profile.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.522604">
           <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
         </state>
@@ -982,15 +1479,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+=======
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="833">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+=======
+        <state vertical-scroll-proportion="-9.807693">
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+          <caret line="43" column="88" selection-start-line="43" selection-start-column="88" selection-end-line="43" selection-end-column="88" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
           <folding />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/letscope/user/profile.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1156">
+          <caret line="102" column="15" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
+          <folding>
+            <element signature="e#452#1794#0" expanded="false" />
+          </folding>
+=======
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
         </state>
       </provider>
     </entry>
@@ -1007,14 +1525,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/letscope/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="92" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="92" />
+=======
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="493">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="25" />
+=======
+        <state vertical-scroll-proportion="-0.65384614">
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="47" selection-end-column="27" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
           <folding />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/letscope/user/profileController.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="765">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+=======
         <state vertical-scroll-proportion="0.0">
           <caret line="349" column="10" selection-start-line="329" selection-start-column="8" selection-end-line="349" selection-end-column="10" />
           <folding>
@@ -1040,11 +1576,13 @@
         <state vertical-scroll-proportion="-15.692307">
           <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/letscope/login/loginController.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.6633663">
           <caret line="298" column="43" selection-start-line="298" selection-start-column="43" selection-end-line="298" selection-end-column="43" />
           <folding>
@@ -1056,7 +1594,152 @@
             <element signature="e#11397#11824#0" expanded="false" />
             <element signature="e#11860#12127#0" expanded="false" />
             <element signature="e#12164#12528#0" expanded="false" />
+=======
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="17">
+          <caret line="341" column="30" selection-start-line="341" selection-start-column="30" selection-end-line="341" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hotelProject/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataServices/postDataService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/workEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/postService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="e#1896#2421#0" expanded="false" />
+            <element signature="e#2468#2941#0" expanded="false" />
+            <element signature="e#3020#3635#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/postController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+          <folding>
+            <element signature="e#966#1345#0" expanded="false" />
+            <element signature="e#1381#1663#0" expanded="false" />
+            <element signature="e#1699#2127#0" expanded="false" />
+=======
+        <state vertical-scroll-proportion="0.3834197">
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+          <caret line="328" column="44" selection-start-line="328" selection-start-column="44" selection-end-line="328" selection-end-column="44" />
+          <folding>
+            <element signature="e#456#494#0" expanded="false" />
+            <element signature="e#513#10477#0" expanded="false" />
+            <element signature="e#977#10473#0" expanded="false" />
+            <element signature="e#10682#11447#0" expanded="false" />
+            <element signature="e#12035#12302#0" expanded="false" />
+            <element signature="e#12339#12703#0" expanded="false" />
+>>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/dataServices/postDataService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+=======
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/letscope/tag/tagsfinal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letscope/tag/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letscope/tag/tag2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letscope/tag/tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataServices/tagDataService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letscope/user/people.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/post/post-pic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+>>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+          <folding />
         </state>
       </provider>
     </entry>

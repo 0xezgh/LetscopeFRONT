@@ -2,14 +2,14 @@
 	'user strict';
 	
 	angular
-		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match','btford.socket-io'])
+		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match','btford.socket-io','ngMap'])
         .value('AuthenticatedUser',{})
 			.value('messageFormatter', MessageFormatter)
 		.config(config)
         .run(function($rootScope, $location) {
 	    $rootScope.$on("$routeChangeStart", function(event, next, current) {
-	    	/*if ($rootScope.AuthenticatedUser== null) {
-	    	
+	    /*	if ($rootScope.AuthenticatedUser== null) {
+
 	        // no logged user, redirect to /login
 	        if ( next.templateUrl === "login/login.html") {
 	        }
@@ -41,17 +41,17 @@
 				controller:'PostController',
 				templateUrl:'post/activity.html'
 		})
-            .when('/tag',{
+            .when('/tags',{
 				controller:'tagController',
-				templateUrl:'tags.html'
+				templateUrl:'letscope/tag/tags.html'
 		})
-            .when('/tag/:name',{
+            .when('/tag/:idTag',{
 				controller:'tag2Controller',
-				templateUrl:'tag.html'
+				templateUrl:'letscope/tag/tag.html'
 		})
 		    .when('/tag2/:name',{
 				controller:'postandtagController',
-				templateUrl:'tag.html'
+				templateUrl:'letscope/tag/tag.html'
 		})
 				.when('/profile',{
 				controller:'ProfileController',
@@ -78,8 +78,10 @@
                 templateUrl:'post/workEdit.html'
 				})
 		
-            .when('/post/pic',{
-				templateUrl:'post-pic.html'
+            .when('/post/pic/:id',{
+				controller:'PostController',
+				templateUrl:'post/post-pic.html'
+				
 		})
             .when('/post/video',{
 				templateUrl:'post-video.html'
@@ -88,7 +90,7 @@
 				templateUrl:'search.html'
 		})
             .when('/people',{
-				templateUrl:'people.html'
+				templateUrl:'letscope/user/people.html'
 		})
             .when('/messages',{
 				templateUrl:'messages.html'
