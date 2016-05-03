@@ -303,7 +303,7 @@
 				if(response.success){
 					$rootScope.AuthenticatedUser = {email : response.email, username : response.username, id : response.id};
 					console.log($rootScope.AuthenticatedUser);
-					$location.path("/#/activity/");
+					$location.path("/activity/");
 				}else{
 					$scope.errorMsg = response.message;
 					console.log(response.message);

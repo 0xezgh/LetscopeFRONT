@@ -1,65 +1,89 @@
-	
-	
-	<!-- THE HEADER -->
-	<ng-include src="'shared/header.html'" ></ng-include>	
 
-	<!-- MAIN CONTENT -->
-	<div id="content-block" class="work-box">
 
-		<div class="work-area">
+<!-- THE HEADER -->
+<ng-include src="'shared/header.html'" ></ng-include>
 
-			<div class="container be-detail-container">
-				<div class="row">
-					<div class="col-xs-12 col-md-3 st-col left-feild">
+<!-- MAIN CONTENT -->
+<div id="content-block" class="work-box">
+
+	<div class="work-area">
+
+		<div class="container be-detail-container">
+			<div class="row">
+				<div class="col-xs-12 col-md-3 st-col left-feild">
+					<div class="be-vidget behance-style" >
+
+
+						<div class="creative_filds_block">
+							<ul class="ul nav b-work-list">
+								<li ><a href="#"><i class="fa fa-cloud-upload"></i>Upload Files</a><input class="file" type="file"/></li>
+								<li id="media" ><a href="#"><i class="fa fa-pencil-square-o"></i>Embed media</a></li>
+								<li ><a href="#"><i class="fa fa-text-width"></i>Add text</a></li>
+								<li ><a href="#"><i class="fa fa-cloud"></i>Creative cloud</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="be-vidget  behance-style">
 
 
 					</div>
-					<div class="col-xs-12 col-md-9 _editor-content_">
-						
-							<div class="be-large-post large-area">
-								<div class="info-block style-2">
-									<div class="be-large-post-align "><h3 class="info-block-label">Add work</h3></div>
-								</div>
-								
-								
-								
-							
-							
-							
-								<div class="postForm">
-								  <form  ng-submit="addWork(post)" >
-									<label for="Title">Title</label>
-									 <input type="text" class="fa fa-text-width" ng-model="post.title" /><br/>
 
-									<label for="shortDesc">Short description</label>
-									 <input type="text" class="fa fa-text-width" ng-model="post.shortDesc" /><br/>
-									 
-									 <label for="longDesc">Long description</label>
-									 <input type="text" class="fa fa-text-width" ng-model="post.longDesc" /><br/>
-									 
-								
+				</div>
+				<div class="col-xs-12 col-md-9 _editor-content_">
 
-									<label for="status">Post Status</label>
-									<select id="status" name="status" ng-model="post.work_status">
+					<div class="be-large-post large-area">
+						<div class="info-block style-2">
+							<div class="be-large-post-align "><h3 class="info-block-label">Add work</h3></div>
+						</div>
 
-										<option value="Finished">Finished</option>
-										<option value="Progress">In progress</option>
-									</select>
-								  
-									<input type="submit" value="Publish"/>
-								  </form>
-								</div>
-								
-							</div>
-						
+
+
+
+
+
+						<div class="postForm">
+							<form  ng-submit="addWork(post)" >
+								<label for="Title">Title</label>
+								<input type="text" class="fa fa-text-width" ng-model="post.title" /><br/>
+
+								<label for="shortDesc">Short description</label>
+								<input type="text" class="fa fa-text-width" ng-model="post.shortDesc" /><br/>
+
+								<label for="longDesc">Long description</label>
+								<input type="text" class="fa fa-text-width" ng-model="post.longDesc" /><br/>
+
+
+
+								<label for="tag">Post tag</label>
+								<select id="tag" name="tag" ng-model="post.tag">
+
+									<option value="Developers">Developers</option>
+									<option value="Design">Design</option>
+								</select>
+
+
+
+								<label for="status">Post Status</label>
+								<select id="status" name="status" ng-model="post.work_status">
+
+									<option value="Finished">Finished</option>
+									<option value="Progress">In progress</option>
+								</select>
+
+								<input type="submit" value="Publish"/>
+							</form>
+						</div>
+
 					</div>
+
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
-	<div class="be-fixed-filter"></div>
-	<div class="mini-popup-wrapper brand-popup">
+<div class="be-fixed-filter"></div>
+<div class="mini-popup-wrapper brand-popup">
 
 
 	<div class="mini-popup ">
@@ -70,8 +94,8 @@
 			<button type="button" class="btn btn-primary">DONE</button>
 		</form>
 	</div>
-	</div>
-	<div class="mini-popup-wrapper school-popup">
+</div>
+<div class="mini-popup-wrapper school-popup">
 	<div class="mini-popup ">
 		<i class="fa close-mini fa-times"></i>
 		<h3>Add School</h3>
@@ -80,8 +104,8 @@
 			<button type="button" class="btn btn-primary">DONE</button>
 		</form>
 	</div>
-	</div>
-	<div class="mini-popup-wrapper tools-popup">
+</div>
+<div class="mini-popup-wrapper tools-popup">
 	<div class="mini-popup ">
 		<i class="fa close-mini fa-times"></i>
 		<h3>Add Tools</h3>
@@ -90,8 +114,8 @@
 			<button type="button" class="btn btn-primary">DONE</button>
 		</form>
 	</div>
-	</div>
-	<div class="mini-popup-wrapper team-popup">
+</div>
+<div class="mini-popup-wrapper team-popup">
 	<div class="mini-popup ">
 		<i class="fa close-mini fa-times"></i>
 		<h3>Add Team</h3>
@@ -100,8 +124,8 @@
 			<button type="button" class="btn btn-primary">DONE</button>
 		</form>
 	</div>
-	</div>
-	<div class="mini-popup-wrapper agencies-popup">
+</div>
+<div class="mini-popup-wrapper agencies-popup">
 	<div class="mini-popup ">
 		<i class="fa close-mini fa-times"></i>
 		<h3>Add Agencies</h3>
@@ -110,29 +134,29 @@
 			<button type="button" class="btn btn-primary">DONE</button>
 		</form>
 	</div>
-	</div>
-	
-	<div class="large-popup embed">
-		<div class="large-popup-fixed"></div>
-		<div class="container large-popup-container">
-			<div class="row">
-				<div class="col-md-10 col-md-push-1 col-lg-8 col-lg-push-2 large-popup-content">
-					<div class="row">
-						<div class="col-md-12">
-							<i class="fa fa-times close-button close-media"></i>
-							<h5 class="large-popup-title">Embed Media</h5>
-						</div>
-						<div class="col-md-12">
-							<form action="http://demo.nrgthemes.com/projects/nrgnetwork/">
-								<textarea class="main-textarea" ></textarea>
-								<input type="submit" class="be-popup-sign-button" value="Embed"/>
-							</form>
-						</div>
+</div>
+
+<div class="large-popup embed">
+	<div class="large-popup-fixed"></div>
+	<div class="container large-popup-container">
+		<div class="row">
+			<div class="col-md-10 col-md-push-1 col-lg-8 col-lg-push-2 large-popup-content">
+				<div class="row">
+					<div class="col-md-12">
+						<i class="fa fa-times close-button close-media"></i>
+						<h5 class="large-popup-title">Embed Media</h5>
+					</div>
+					<div class="col-md-12">
+						<form action="http://demo.nrgthemes.com/projects/nrgnetwork/">
+							<textarea class="main-textarea" ></textarea>
+							<input type="submit" class="be-popup-sign-button" value="Embed"/>
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
 	
 	

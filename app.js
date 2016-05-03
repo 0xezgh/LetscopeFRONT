@@ -3,8 +3,7 @@
 	
 	angular
 
-		.module('letscope',['ngRoute','ngResource','ngFileUpload','ngMap'])
-		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match'])
+		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match','ngMap','isteven-multi-select'])
         .value('AuthenticatedUser',{})
 		.config(config)
         .run(function($rootScope, $location) {
@@ -46,6 +45,13 @@
 				controller:'tagController',
 				templateUrl:'letscope/tag/tags.html'
 		})
+
+			.when('/tagschoice',{
+				controller:'taggController',
+				templateUrl:'letscope/tag/tagschoice.html'
+			})
+
+
             .when('/tag/:idTag',{
 				controller:'tag2Controller',
 				templateUrl:'letscope/tag/tag.html'
