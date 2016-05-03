@@ -10,21 +10,6 @@
 						<a class="btn full color-1 size-1 hover-1" href="#/profile">
                             <i class="fa fa-chevron-left"></i>back to profile</a>
 					</div>
-					<div class="be-vidget hidden-xs hidden-sm" id="scrollspy">
-						<h3 class="letf-menu-article">
-							Choose Category
-						</h3>
-						<div class="creative_filds_block">
-							<ul class="ul nav">
-								<li class="edit-ln"><a data-sec="#">Basic Information</a></li>
-								<li class="edit-ln"><a data-section="#">Edit Password</a></li>
-								<li class="edit-ln"><a href="#">On The Web</a></li>
-								<li class="edit-ln"><a href="#">About Me</a></li>
-								<li class="edit-ln"><a href="#">Web References</a></li>
-							</ul>
-						</div>	
-					</div>
-
 				</div>
 				<div class="col-xs-12 col-md-9 _editor-content_">
 					<form ng-submit="uploadFile(file)">
@@ -34,8 +19,8 @@
 							</div>
 							<div class="be-large-post-align">
 								<div class="be-change-ava">
-									<a class="be-ava-user style-2" href="blog-detail-2.html">
-										<img src="/img/a1.png" alt="">
+									<a class="be-ava-user style-2" >
+										<img ng-src="http://localhost:3000/user/download/{{profile.image}}" alt="Profile image">
 									</a>
 									<input class="btn color-4 size-2" type="file" value="Replace image" ngf-select ng-model="file"
 										   name="file" ngf-pattern="'image/*'" accept="image/*" ngf-max-size="20MB" type="file">

@@ -6,6 +6,204 @@
 =======
     <list default="true" id="d92a86d1-11db-4723-a5c1-a0301f4aa59d" name="Default" comment="">
 <<<<<<< HEAD
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/dist/WebSocketMain.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/dist/WebSocketMainInsecure.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/WebSocketMain.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/WebSocketMainInsecure.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/mock/socket-io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/npm-install.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/socket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/socket.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/socket.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-socket-io/socket.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/.zuul.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/bin/builder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/dist/socket.io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/dist/socket.io.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/namespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/on.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/socket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/transports/flashsocket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/transports/htmlfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/transports/jsonp-polling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/transports/websocket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/transports/xhr-polling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/transports/xhr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/url.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/IWebSocketLogger.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/WebSocket.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/WebSocketEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/WebSocketMain.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/WebSocketMainInsecure.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/build.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/adobe/net/proxies/RFC2817Socket.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/gsolo/encryption/MD5.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/Crypto.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/MozillaRootCertificates.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/X509Certificate.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/X509CertificateCollection.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/HMAC.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/IHMAC.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/IHash.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MAC.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MD2.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MD5.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA1.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA224.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA256.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHABase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/ARC4.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/IPRNG.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/Random.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/TLSPRF.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/rsa/RSAKey.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/AESKey.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/BlowFishKey.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CBCMode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CFB8Mode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CFBMode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CTRMode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/DESKey.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ECBMode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ICipher.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IMode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IPad.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IStreamCipher.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ISymmetricKey.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IVMode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/NullPad.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/OFBMode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/PKCS5.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/SSLPad.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/SimpleIVMode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/TLSPad.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/TripleDESKey.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/XTeaKey.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/aeskey.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/dump.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/AESKeyTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ARC4Test.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/BigIntegerTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/BlowFishKeyTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CBCModeTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CFB8ModeTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CFBModeTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CTRModeTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/DESKeyTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ECBModeTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/HMACTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ITestHarness.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/MD2Test.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/MD5Test.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/OFBModeTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/RSAKeyTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA1Test.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA224Test.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA256Test.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TLSPRFTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TestCase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TripleDESKeyTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/XTeaKeyTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/BulkCiphers.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/CipherSuites.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/IConnectionState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/ISecurityParameters.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/KeyExchanges.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/MACs.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/SSLConnectionState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/SSLEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/SSLSecurityParameters.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSConfig.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSConnectionState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSEngine.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSError.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSecurityParameters.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSocket.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSocketEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/BarrettReduction.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/BigInteger.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/ClassicReduction.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/IReduction.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/MontgomeryReduction.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/NullReduction.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/bi_internal.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/ArrayUtil.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Base64.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Hex.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Memory.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/ByteString.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/DER.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/IAsn1Type.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Integer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/OID.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/ObjectIdentifier.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/PEM.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/PrintableString.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Sequence.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Set.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Type.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/UTCTime.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/sample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/lib/vendor/web-socket-js/web_socket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/socket.io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/support/browserify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/support/browserify.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/support/should.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/support/test-runner/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/support/test-runner/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/support/test-runner/public/javascript/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/support/test-runner/public/javascript/runner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/support/test-runner/public/javascript/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/support/test-runner/public/stylesheets/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/support/test-runner/public/stylesheets/main.styl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/events.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/io.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/node/builder.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/node/builder.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/parser.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/socket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/socket.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/support/env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/support/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/url.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/util.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/socket.io-client/test/worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/notificationSocketService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" />
+=======
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/post-pic.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
@@ -19,13 +217,30 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post/workEdit.html" afterPath="$PROJECT_DIR$/post/workEdit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/stylesheet.css" afterPath="$PROJECT_DIR$/style/stylesheet.css" />
 =======
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/login/login.html" afterPath="$PROJECT_DIR$/letscope/login/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular-csp.css" afterPath="$PROJECT_DIR$/bower_components/angular/angular-csp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/bower_components/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/package.json" afterPath="$PROJECT_DIR$/bower_components/angular/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/login/forget.html" afterPath="$PROJECT_DIR$/letscope/login/forget.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/login/loginController.js" afterPath="$PROJECT_DIR$/letscope/login/loginController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/login/loginService.js" afterPath="$PROJECT_DIR$/letscope/login/loginService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/user/edit-profile.html" afterPath="$PROJECT_DIR$/letscope/user/edit-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/user/profile.html" afterPath="$PROJECT_DIR$/letscope/user/profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/user/profileController.js" afterPath="$PROJECT_DIR$/letscope/user/profileController.js" />
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/user/show-profile.html" afterPath="$PROJECT_DIR$/letscope/user/show-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letscope/user/userService.js" afterPath="$PROJECT_DIR$/letscope/user/userService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/chat.js" afterPath="$PROJECT_DIR$/script/chat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/header.html" afterPath="$PROJECT_DIR$/shared/header.html" />
+=======
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
     </list>
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
     <ignored path="letscope.iws" />
@@ -66,6 +281,19 @@
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
         <entry file="file://$PROJECT_DIR$/letscope/login/loginController.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.6633663">
+              <caret line="298" column="43" selection-start-line="298" selection-start-column="43" selection-end-line="298" selection-end-column="43" />
+              <folding>
+                <element signature="e#418#456#0" expanded="false" />
+                <element signature="e#475#10439#0" expanded="false" />
+                <element signature="e#939#10435#0" expanded="false" />
+                <element signature="e#10461#10579#0" expanded="false" />
+                <element signature="e#10639#11356#0" expanded="false" />
+                <element signature="e#11397#11824#0" expanded="false" />
+                <element signature="e#11860#12127#0" expanded="false" />
+                <element signature="e#12164#12528#0" expanded="false" />
+=======
             <state vertical-scroll-proportion="0.0">
               <caret line="328" column="44" selection-start-line="328" selection-start-column="44" selection-end-line="328" selection-end-column="44" />
               <folding>
@@ -76,11 +304,16 @@
                 <element signature="e#12035#12302#0" expanded="false" />
                 <element signature="e#12339#12703#0" expanded="false" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+=======
 <<<<<<< HEAD
       <file leaf-file-name="postDataService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataServices/postDataService.js">
@@ -167,10 +400,27 @@
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
       <file leaf-file-name="loginService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letscope/login/loginService.js">
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="89" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
+<<<<<<< HEAD
+                <element signature="e#714#2533#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letscope/user/userService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+              <folding>
+                <element signature="e#2070#3086#0" expanded="false" />
+                <element signature="e#3132#3577#0" expanded="false" />
+=======
                 <element signature="e#591#1107#0" expanded="false" />
                 <element signature="e#1139#1160#0" expanded="false" />
                 <element signature="e#1189#1260#0" expanded="false" />
@@ -178,6 +428,7 @@
                 <element signature="e#2036#2306#0" expanded="false" />
                 <element signature="e#2359#2639#0" expanded="false" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               </folding>
             </state>
           </provider>
@@ -186,6 +437,10 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../hotelProject/login.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+=======
 <<<<<<< HEAD
             <state vertical-scroll-proportion="0.0">
               <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="47" selection-end-column="27" />
@@ -197,11 +452,35 @@
             <state vertical-scroll-proportion="-0.65384614">
               <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="47" selection-end-column="27" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="profileController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letscope/user/profileController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="349" column="10" selection-start-line="329" selection-start-column="8" selection-end-line="349" selection-end-column="10" />
+              <folding>
+                <element signature="e#655#7242#0" expanded="false" />
+                <element signature="e#7274#7335#0" expanded="false" />
+                <element signature="e#7362#7760#0" expanded="false" />
+                <element signature="e#7818#8921#0" expanded="false" />
+                <element signature="e#8966#9539#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post/work.html">
@@ -215,17 +494,26 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="notificationSocketService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/notificationSocketService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="36" />
+=======
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
             <state relative-caret-position="495">
               <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <folding />
             </state>
           </provider>
@@ -234,13 +522,28 @@
       <file leaf-file-name="post-pic.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/post/post-pic.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="92" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="92" />
+=======
             <state relative-caret-position="362">
               <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="forget.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letscope/login/forget.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="159" column="7" selection-start-line="159" selection-start-column="7" selection-end-line="159" selection-end-column="7" />
+              <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
+              </folding>
+=======
       <file leaf-file-name="workEdit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post/workEdit.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -251,10 +554,18 @@
               <caret line="43" column="88" selection-start-line="43" selection-start-column="88" selection-end-line="43" selection-end-column="88" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
               <folding />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letscope/user/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="postDataService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataServices/postDataService.js">
@@ -262,6 +573,7 @@
             <state relative-caret-position="272">
               <caret line="16" column="25" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <folding />
             </state>
           </provider>
@@ -302,18 +614,13 @@
         <option value="$PROJECT_DIR$/user/profileController.js" />
         <option value="$PROJECT_DIR$/user/profile.html" />
         <option value="$PROJECT_DIR$/user/show-profile.html" />
-        <option value="$PROJECT_DIR$/letscope/user/userService.js" />
-        <option value="$PROJECT_DIR$/letscope/user/profile.html" />
         <option value="$PROJECT_DIR$/activity.html" />
-        <option value="$PROJECT_DIR$/letscope/user/show-profile.html" />
-        <option value="$PROJECT_DIR$/letscope/login/forget.html" />
         <option value="$PROJECT_DIR$/dataServices/userDataService.js" />
-        <option value="$PROJECT_DIR$/letscope/user/edit-profile.html" />
         <option value="$PROJECT_DIR$/letscope/login/reset.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dataServices/authDataService.js" />
-        <option value="$PROJECT_DIR$/letscope/user/profileController.js" />
         <option value="$PROJECT_DIR$/letscope/login/login.html" />
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/app.js" />
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/dataServices/postDataService.js" />
@@ -322,15 +629,29 @@
         <option value="$PROJECT_DIR$/post/postService.js" />
         <option value="$PROJECT_DIR$/post/postController.js" />
 =======
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         <option value="$PROJECT_DIR$/letscope/login/loginService.js" />
-        <option value="$PROJECT_DIR$/letscope/login/loginController.js" />
+        <option value="$PROJECT_DIR$/letscope/user/edit-profile.html" />
+        <option value="$PROJECT_DIR$/script/chat.js" />
         <option value="$PROJECT_DIR$/shared/header.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/services/notificationSocketService.js" />
+        <option value="$PROJECT_DIR$/letscope/login/forget.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/letscope/user/show-profile.html" />
+        <option value="$PROJECT_DIR$/letscope/user/profile.html" />
+        <option value="$PROJECT_DIR$/letscope/user/profileController.js" />
+        <option value="$PROJECT_DIR$/letscope/user/userService.js" />
+        <option value="$PROJECT_DIR$/letscope/login/loginController.js" />
+=======
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/dataServices/postDataService.js" />
         <option value="$PROJECT_DIR$/letscope/user/people.html" />
 =======
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
       </list>
     </option>
   </component>
@@ -381,9 +702,13 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+      <pane id="Scope" />
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
       <pane id="Scratches" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
@@ -427,11 +752,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="letscope" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,7 +784,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="user" />
+=======
               <option name="myItemId" value="tag" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -478,12 +817,27 @@
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="letscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+=======
               <option name="myItemId" value="post" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
 <<<<<<< HEAD
       <pane id="Scratches" />
 =======
@@ -502,6 +856,7 @@
     <property name="last_opened_file_path" value="D:/PiWeb/letscopejs" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -573,6 +928,10 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+=======
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
@@ -586,6 +945,7 @@
 =======
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21083455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
@@ -640,11 +1000,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     <entry file="file://D:/Mes études/Esprit/4 TWIN 2/1er semestre/EasyErp/EasyErp_AngularJS/EasyErpApp/InventoryResource/BuyerService.js" />
     <entry file="file://$PROJECT_DIR$/../EasyErp_AngularJS/app.js" />
@@ -708,6 +1070,7 @@
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
     <entry file="file://$PROJECT_DIR$/lib/bootstrap-3.3.6-dist/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -843,6 +1206,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
     <entry file="file://$PROJECT_DIR$/maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -851,6 +1216,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
     <entry file="file://$PROJECT_DIR$/style/loader.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -904,19 +1270,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letscope/user/profile.html">
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-file-upload/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
 =======
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
           <caret line="50" column="141" selection-start-line="50" selection-start-column="137" selection-end-line="50" selection-end-column="141" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular-file-upload/src/index.js">
+    <entry file="file://$PROJECT_DIR$/dataServices/userDataService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4768977">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letscope/login/reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73275864">
+          <caret line="25" column="88" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letscope/login/loginService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41254124">
+          <caret line="60" column="89" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/colors.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state relative-caret-position="0">
@@ -928,8 +1319,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letscope/user/show-profile.html">
+    <entry file="file://$PROJECT_DIR$/script/moment.min.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
 <<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
@@ -937,10 +1332,39 @@
         <state vertical-scroll-proportion="-20.923077">
           <caret line="32" column="64" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="64" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letscope/user/userService.js">
+    <entry file="file://$PROJECT_DIR$/script/magnific.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/chat.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state relative-caret-position="0">
@@ -955,34 +1379,43 @@
           <caret line="97" column="62" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="62" />
 =======
         <state vertical-scroll-proportion="0.30858085">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataServices/userDataService.js">
+    <entry file="file://$PROJECT_DIR$/dataServices/authDataService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4768977">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/shared/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letscope/login/reset.html">
+    <entry file="file://$PROJECT_DIR$/post/activity.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
         <state vertical-scroll-proportion="0.73275864">
           <caret line="25" column="88" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="88" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letscope/user/profileController.js">
+    <entry file="file://$PROJECT_DIR$/shared/header.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-0.15454546">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+=======
 <<<<<<< HEAD
         <state relative-caret-position="476">
           <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
@@ -994,34 +1427,59 @@
           <folding />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/letscope/login/forget.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="159" column="7" selection-start-line="159" selection-start-column="7" selection-end-line="159" selection-end-column="7" />
+=======
+<<<<<<< HEAD
         <state relative-caret-position="663">
           <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="283" selection-end-column="13" />
 =======
         <state vertical-scroll-proportion="0.47241378">
           <caret line="256" column="9" selection-start-line="256" selection-start-column="9" selection-end-line="256" selection-end-column="9" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
           <folding>
-            <element signature="n#footer#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="e#714#2533#0" expanded="false" />
+          </folding>
+=======
         <state vertical-scroll-proportion="0.7293729">
           <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
           <folding />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letscope/login/login.html">
+    <entry file="file://$PROJECT_DIR$/letscope/user/show-profile.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.522604">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+=======
 <<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
 =======
@@ -1032,12 +1490,13 @@
         <state vertical-scroll-proportion="-9.807693">
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
           <caret line="43" column="88" selection-start-line="43" selection-start-column="88" selection-end-line="43" selection-end-column="88" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
           <folding />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataServices/authDataService.js">
+    <entry file="file://$PROJECT_DIR$/letscope/user/profile.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state relative-caret-position="1156">
@@ -1047,14 +1506,29 @@
           </folding>
 =======
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letscope/user/edit-profile.html">
+    <entry file="file://$PROJECT_DIR$/letscope/user/userService.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <element signature="e#2070#3086#0" expanded="false" />
+            <element signature="e#3132#3577#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letscope/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="92" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="92" />
+=======
 <<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
 =======
@@ -1065,34 +1539,42 @@
         <state vertical-scroll-proportion="-0.65384614">
 >>>>>>> 2a160c17c444bd178596518458547b5ae6e512c5
           <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="47" selection-end-column="27" />
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
           <folding />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letscope/login/loginService.js">
+    <entry file="file://$PROJECT_DIR$/letscope/user/profileController.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state relative-caret-position="765">
           <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
 =======
         <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="89" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
+          <caret line="349" column="10" selection-start-line="329" selection-start-column="8" selection-end-line="349" selection-end-column="10" />
           <folding>
-            <element signature="e#591#1107#0" expanded="false" />
-            <element signature="e#1139#1160#0" expanded="false" />
-            <element signature="e#1189#1260#0" expanded="false" />
-            <element signature="e#1714#1992#0" expanded="false" />
-            <element signature="e#2036#2306#0" expanded="false" />
-            <element signature="e#2359#2639#0" expanded="false" />
+            <element signature="e#655#7242#0" expanded="false" />
+            <element signature="e#7274#7335#0" expanded="false" />
+            <element signature="e#7362#7760#0" expanded="false" />
+            <element signature="e#7818#8921#0" expanded="false" />
+            <element signature="e#8966#9539#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/header.html">
+    <entry file="file://$PROJECT_DIR$/services/notificationSocketService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.332696">
-          <caret line="223" column="72" selection-start-line="223" selection-start-column="72" selection-end-line="223" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letscope/user/edit-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
         </state>
@@ -1100,6 +1582,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/letscope/login/loginController.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.6633663">
+          <caret line="298" column="43" selection-start-line="298" selection-start-column="43" selection-end-line="298" selection-end-column="43" />
+          <folding>
+            <element signature="e#418#456#0" expanded="false" />
+            <element signature="e#475#10439#0" expanded="false" />
+            <element signature="e#939#10435#0" expanded="false" />
+            <element signature="e#10461#10579#0" expanded="false" />
+            <element signature="e#10639#11356#0" expanded="false" />
+            <element signature="e#11397#11824#0" expanded="false" />
+            <element signature="e#11860#12127#0" expanded="false" />
+            <element signature="e#12164#12528#0" expanded="false" />
+=======
 <<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
 =======
@@ -1173,6 +1668,7 @@
             <element signature="e#12035#12302#0" expanded="false" />
             <element signature="e#12339#12703#0" expanded="false" />
 >>>>>>> 6087d2f4409f3d3a890986b72339f3a10d3c4204
+>>>>>>> 8de420f796da52b00294995e915762a876b82eec
           </folding>
         </state>
       </provider>
