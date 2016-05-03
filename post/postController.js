@@ -6,13 +6,13 @@
         .module('letscope')
         .controller('PostController',PostController);
 
-    PostController.$inject = ['PostService','$scope','$location', '$http', '$window','Upload'];
+    PostController.$inject = ['PostService','$scope','$rootScope','$location', '$http', '$window','Upload'];
 	
-	function PostController(PostService,$scope,$location, $http, $window, Upload) {
+	function PostController(PostService,$scope,$rootScope,$location, $http, $window, Upload) {
 		var id;
 		if($location.path()=='/work/')
 		{
-			//id = $rootScope.AuthenticatedUser.id;
+			id = $rootScope.AuthenticatedUser.id;
 		}else
 		{
 			id = $location.path().split('/')[2];
@@ -26,7 +26,8 @@
 			shortDesc : '',
 			longDesc : '',
 			work_status :'',
-			imgContent:''
+			imgContent:'',
+			tag:[]
 		}
 
 		$scope.posts = [];
@@ -80,7 +81,7 @@
 		$scope.addWork = function(post){
 
 				console.log(post);
-				PostService.AddWork(post.title,post.longDesc,post.shortDesc,post.work_status,function(response){
+				PostService.AddWork(post.title,post.longDesc,post.shortDesc,post.work_status,id,post.tag,function(response){
                 if (response.success)
                 {
                     $scope.msg = "Successfully added !";

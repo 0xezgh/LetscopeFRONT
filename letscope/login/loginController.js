@@ -1,12 +1,12 @@
 (function(){
 	'use strict';
-	
+
 	angular
-			.module('letscope')
-			.controller('LoginController',LoginController);
-	
+		.module('letscope')
+		.controller('LoginController',LoginController);
+
 	LoginController.$inject = ['LoginService','$scope','$location','$rootScope'];
-	
+
 	function LoginController(LoginService,$scope,$location,$rootScope){
 		var days = [];
 		var years = [];
@@ -14,12 +14,10 @@
 			days.push(i);
 		for (var i=1950; i<2007; i++)
 			years.push(i);
-
 		$scope.credentials = {
 			username: '',
 			password: ''
 		};
-
 		$scope.init = {
 			days: days,
 			months: [
@@ -283,7 +281,6 @@
 				{name: 'Zimbabwe', code: 'ZW'}
 			]
 		};
-
 		$scope.newUser = {
 			fname: '',
 			lname: '',
@@ -293,9 +290,7 @@
 			birthdate: {},
 			newsletter: true
 		};
-
 		$scope.msg = '';
-
 		$scope.register = function(newUser){
 			var date = newUser.birthdate.day + "-" + newUser.birthdate.month.nbr + "-" + newUser.birthdate.year;
 			console.log(date);
@@ -321,27 +316,24 @@
 				}
 			});
 		};
-
 		$scope.login = function(credentials){
-			 LoginService.Login(credentials.username,credentials.password,function(response){
+			LoginService.Login(credentials.username,credentials.password,function(response){
 				if(response.success){
 					$rootScope.AuthenticatedUser = {
 						id : response.id,
 						name : response.name
 					};
 					$location.path("/activity/");
-
 				}else{
 					$scope.errorMsg = response.message;
 					console.log(response.message);
 					$scope.credentials = {
 						username: '',
 						password: ''
-					  };
+					};
 				}
 			});
 		};
-
 		$scope.forget = function(email){
 			LoginService.ForgetPassword(email,function(response){
 				if (response.success) {
@@ -354,7 +346,6 @@
 				}
 			});
 		}
-
 		$scope.reset = function(password){
 			var token = $location.path().split('/')[2];
 			LoginService.ResetPassword(token, password, function(response){
@@ -369,6 +360,5 @@
 				}
 			});
 		}
-
-		}
+	}
 })();

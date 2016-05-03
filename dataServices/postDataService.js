@@ -22,6 +22,10 @@
 				stripTrailingSlashes: false
 			});
 
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> d34066b64b6b5d17fb84b3e8455efe2cb647461a
 	}
 })();

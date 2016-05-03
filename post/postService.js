@@ -19,13 +19,15 @@
 
         return service;
 
-        function AddWork(title, longDesc, shortDesc, work_status, callback) {
+        function AddWork(title, longDesc, shortDesc, work_status,user,tag, callback) {
             var response;
             PostDataService.save({
                 title: title,
                 longDesc: longDesc,
                 shortDesc: shortDesc,
                 work_status: work_status,
+                user:user,
+                tag:tag
 
             }, function (post) {
                 if (post.error == null) {
@@ -54,7 +56,8 @@
                         title: post.title,
                         longDesc: post.description.longDesc,
                         shortDesc: post.description.shortDesc,
-                        imgContent: post.imgContent
+                        imgContent: post.imgContent,
+                        tag:tag
 
                     };
                 }
