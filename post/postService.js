@@ -107,10 +107,9 @@
         }
 
         function GetPostsByTag(idTag, callback) {
-            var res;
-
+            var response;
             PostDataService.listByTag({
-                idTag: idTag
+                id: idTag
             }, function (posts) {
                 if (posts.error == null) {
                     console.log("getting posts by tag !");
@@ -118,14 +117,14 @@
                     console.log("number of posts");
                     console.log(posts.length);
 
-                    res = {
+                    response = {
                         success: true,
                         posts: posts
                     };
                 }
                 else {
                     console.log("!Done");
-                    res = {success: false};
+                    response = {success: false};
                 }
                 callback(response);
             });

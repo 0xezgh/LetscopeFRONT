@@ -13,23 +13,15 @@
 			{   'get':            {method: 'GET', params: { id: '@id'}},
 				'update':    	  {method: 'PUT' , params: { id: '@id'}},
 				'list':    	  	  {method: 'GET' ,  params: { id: '@id'}  , isArray:true },
-				'save' :          {method : 'POST'},
+				'save' :          {method :'POST'},
 				'progress':    	  {method: 'GET' ,  params: { operation: 'status', id: 'Progress'}  , isArray:true },
 				'finished':    	  {method: 'GET' ,  params: { operation: 'status', id: 'Finished'}  , isArray:true },
+				'listByTag':      {method: 'GET' ,  params: { operation: 'posts',  id: '@id'},   isArray:true }
 			},
 			{
 				stripTrailingSlashes: false
 			});
 
-		return $resource('http://localhost:3000/post/:id/:idTag',{id: '@id',idTag: '@idTag'},
-				{   'get':          {method: 'GET', params: { id: '@id'}},
-					'update':    	{method: 'PUT' , params: { id: '@id'}},
-					'list':    	  	{method: 'GET' , isArray:true },
-					'listByTag':    {method: 'GET' , params: {id: 'posts',idTag: '@idTag'}, isArray:true },
-					'save': 		{method: 'POST'}
-				},
-				{
-					stripTrailingSlashes: false
-				});
+
 	}
 })();

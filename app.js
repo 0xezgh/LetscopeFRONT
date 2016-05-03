@@ -2,13 +2,7 @@
 	'user strict';
 	
 	angular
-<<<<<<< HEAD
-
-		
-		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match','ngMap'])
-=======
 		.module('letscope',['ngRoute','ngResource','ngFileUpload','validation.match','btford.socket-io','ngMap'])
->>>>>>> 7553e18621851c49eab008821e8814160ade6ce9
         .value('AuthenticatedUser',{})
 			.value('messageFormatter', MessageFormatter)
 		.config(config)
